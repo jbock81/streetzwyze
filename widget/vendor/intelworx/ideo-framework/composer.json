@@ -1,0 +1,27 @@
+{
+    "name": "intelworx/ideo-framework",
+    "description": "iDeo is a light-weight PHP framework.",
+    "keywords": ["php", "framework", "light-weight", "smarty"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joseph Orilogbon",
+            "email": "logbon72@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "smarty/smarty": "3.1.27",
+        "mobiledetect/mobiledetectlib": ">=2.8",
+        "respect/validation": "~1.0.3"
+    },
+    "autoload": {
+        "classmap": ["Application.php", "models/"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    },
+    "homepage": "http://ideo.intelworx.com"
+}

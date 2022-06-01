@@ -1,0 +1,3864 @@
+Logs for /widget/reservation
+[2020-03-02 12:50:32]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-02 12:50:32]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-02 12:50:32]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-02 12:50:32]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-02 12:50:32]	[INFO]	Splits are being validated 
+[2020-03-02 12:50:32]	[DEBUG]	Data {
+    "DeliveryDuration": 18,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 22000,
+    "OrderNumber": "WIDGET1200",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-02 12:50:32",
+    "ReservationId": "A000011583149832",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0912983481",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-02 12:50:33]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583149832"} 
+[2020-03-02 12:50:33]	[DEBUG]	Row ID received: A000011583149832 
+Finished at 2020-03-02 12:50:33
+Logs for /widget/pay/?rid=A000011583149832&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-02 12:51:37]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-02 12:51:38
+Logs for /widget/gateway/test-payment-failed/?rid=A000011583149832
+[2020-03-02 12:52:08]	[DEBUG]	Row ID received: 382 
+Finished at 2020-03-02 12:52:08
+Logs for /widget/pay/tx-failed/?ref=CVRS15831499278541&id=382
+[2020-03-02 12:52:08]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-03-02 12:52:08",
+    "FundSecured": "G3",
+    "PayRefBank": "058",
+    "ReservationId": "A000011583149832"
+} 
+[2020-03-02 12:52:08]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Invalid Request. FundSecured must be 00"} 
+[2020-03-02 12:52:08]	[ERROR]	Could not get secure update Invalid Request. FundSecured must be 00 
+Finished at 2020-03-02 12:52:08
+Logs for /widget/reservation/
+[2020-03-02 12:55:57]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-02 12:55:57]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-02 12:55:57]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-02 12:55:57]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-02 12:55:57]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-02 12:55:57]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-02 12:55:57]	[INFO]	Splits are being validated 
+[2020-03-02 12:55:57]	[DEBUG]	Data {
+    "DeliveryDuration": 8,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 30000,
+    "OrderNumber": "TS1993021928377",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-03-02 11:09:49",
+    "ReservationId": "A000022300000929",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 24.5
+        },
+        {
+            "AccountNo": "2001456941",
+            "CbnCode": "058",
+            "SplitPercentage": 75.5
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-03-02 12:55:58]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Reservation ID already exists A000022300000929","ReservationId":null} 
+Finished at 2020-03-02 12:55:58
+Logs for /widget/reservation/
+[2020-03-02 19:15:56]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-02 19:15:56]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-02 19:15:56]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-02 19:15:56]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-02 19:15:56]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-02 19:15:56]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-02 19:15:56]	[INFO]	Splits are being validated 
+[2020-03-02 19:15:56]	[DEBUG]	Data {
+    "DeliveryDuration": 8,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 30000,
+    "OrderNumber": "TS1993021928377",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-03-02 11:09:49",
+    "ReservationId": "A000022300000929",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 24.5
+        },
+        {
+            "AccountNo": "2001456941",
+            "CbnCode": "058",
+            "SplitPercentage": 75.5
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-03-02 19:15:58]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Reservation ID already exists A000022300000929","ReservationId":null} 
+Finished at 2020-03-02 19:15:58
+Logs for /widget/reservation
+[2020-03-02 20:42:52]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-02 20:42:52]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-02 20:42:52]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-02 20:42:52]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-02 20:42:52]	[INFO]	Splits are being validated 
+[2020-03-02 20:42:52]	[DEBUG]	Data {
+    "DeliveryDuration": 48,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 25000,
+    "OrderNumber": "STGOLIVE20",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-02 20:42:51",
+    "ReservationId": "A000011583178171",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921987329",
+            "CbnCode": "100",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-02 20:42:55]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583178171"} 
+[2020-03-02 20:42:55]	[DEBUG]	Row ID received: A000011583178171 
+Finished at 2020-03-02 20:42:55
+Logs for /widget/pay/?rid=A000011583178171&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-02 20:48:43]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-02 20:48:43
+Logs for /widget/pay/?rid=A000011583178171&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-02 21:38:13]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-02 21:38:13
+Logs for /widget/pay/?rid=A000011583178171&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-02 21:39:41]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-02 21:39:41
+Logs for /widget/pay/?rid=A000011583178171&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-02 22:03:42]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-02 22:03:42
+Logs for /widget/pay/?rid=A000011583178171&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-02 22:16:36]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-02 22:16:36
+Logs for /widget/pay/?rid=A000011583178171&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-02 22:17:24]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-02 22:17:24
+Logs for /widget/pay/?rid=A000011583178171&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-02 22:19:04]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["100"],"CustomerFirstName":"Deacon","CustomerFlagged":0,"CustomerId":11,"CustomerLastName":"Marvelous","CustomerMiddleName":null} 
+Finished at 2020-03-02 22:19:04
+Logs for /widget/pay/?rid=A000011583178171&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-02 22:31:00]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-02 22:31:00
+Logs for /widget/pay/?rid=A000011583178171&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-02 22:32:50]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-02 22:32:50
+Logs for /widget/gateway/test-payment-success/?rid=A000011583178171
+[2020-03-02 22:34:25]	[DEBUG]	Row ID received: 383 
+Finished at 2020-03-02 22:34:25
+Logs for /widget/pay/tx-success/?ref=CVRS15831848659959&id=383
+[2020-03-02 22:34:26]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-03-02 22:34:26",
+    "FundSecured": "00",
+    "PayRefBank": "058",
+    "ReservationId": "A000011583178171"
+} 
+[2020-03-02 22:34:27]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK"} 
+Finished at 2020-03-02 22:34:27
+Logs for /widget/reservation
+[2020-03-02 23:28:24]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-02 23:28:24]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-02 23:28:24]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-02 23:28:24]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-02 23:28:24]	[INFO]	Splits are being validated 
+[2020-03-02 23:28:24]	[DEBUG]	Data {
+    "DeliveryDuration": 65,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 68500,
+    "OrderNumber": "STGOLIVE22",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-02 23:28:24",
+    "ReservationId": "A000011583188104",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0912987321",
+            "CbnCode": "232",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-02 23:28:25]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583188104"} 
+[2020-03-02 23:28:25]	[DEBUG]	Row ID received: A000011583188104 
+Finished at 2020-03-02 23:28:25
+Logs for /widget/pay/?rid=A000011583188104&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-02 23:30:59]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"DEBORAH","CustomerFlagged":1,"CustomerId":1,"CustomerLastName":"DIDI","CustomerMiddleName":null} 
+Finished at 2020-03-02 23:30:59
+Logs for /widget/pay/?rid=A000011583188104&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-02 23:56:23]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"DEBORAH","CustomerFlagged":1,"CustomerId":1,"CustomerLastName":"DIDI","CustomerMiddleName":null} 
+Finished at 2020-03-02 23:56:23
+Logs for /widget/pay/?rid=A000011583188104&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-02 23:56:55]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"DEBORAH","CustomerFlagged":1,"CustomerId":1,"CustomerLastName":"DIDI","CustomerMiddleName":null} 
+Finished at 2020-03-02 23:56:55
+Logs for /widget/pay/?rid=A000011583188104&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-02 23:57:21]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"MICHAEL","CustomerFlagged":0,"CustomerId":4,"CustomerLastName":"OLORUNSUYI","CustomerMiddleName":null} 
+Finished at 2020-03-02 23:57:21
+Logs for /widget/gateway/test-payment-success/?rid=A000011583188104
+[2020-03-02 23:59:01]	[DEBUG]	Row ID received: 384 
+Finished at 2020-03-02 23:59:01
+Logs for /widget/pay/tx-success/?ref=CVRS15831899411652&id=384
+[2020-03-02 23:59:02]	[DEBUG]	Data {
+    "CustomerId": "4",
+    "FundSecureDate": "2020-03-02 23:59:02",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A000011583188104"
+} 
+[2020-03-02 23:59:02]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK"} 
+Finished at 2020-03-02 23:59:02
+Logs for /widget/reservation
+[2020-03-03 00:26:53]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 00:26:53]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 00:26:53]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 00:26:53]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 00:26:53]	[WARN]	Validator failed : [ models\forms\validationrules\FloatType ] for  DeliveryFee reason: Delivery fee cannot be more than the order amount 
+Finished at 2020-03-03 00:26:53
+Logs for /widget/reservation
+[2020-03-03 00:28:38]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 00:28:38]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 00:28:38]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 00:28:38]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 00:28:38]	[INFO]	Splits are being validated 
+[2020-03-03 00:28:38]	[DEBUG]	Data {
+    "DeliveryDuration": 98,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 165,
+    "OrderNumber": "98709963",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-03 00:28:38",
+    "ReservationId": "A000011583191718",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0987654321",
+            "CbnCode": "070",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-03 00:28:39]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Order amount cannot Be less than: 200.00","ReservationId":null} 
+Finished at 2020-03-03 00:28:39
+Logs for /widget/reservation
+[2020-03-03 01:09:51]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 01:09:51]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 01:09:51]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 01:09:51]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 01:09:51]	[INFO]	Splits are being validated 
+[2020-03-03 01:09:51]	[DEBUG]	Data {
+    "DeliveryDuration": 90,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 220,
+    "OrderNumber": "SOGONE1500",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-03 01:09:51",
+    "ReservationId": "A000011583194191",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0981289087",
+            "CbnCode": "039",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-03 01:09:52]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583194191"} 
+[2020-03-03 01:09:52]	[DEBUG]	Row ID received: A000011583194191 
+Finished at 2020-03-03 01:09:52
+Logs for /widget/pay/?rid=A000011583194191&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-03 01:10:23]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Invalid Customer Details","CustomerCbnCode":null,"CustomerFirstName":null,"CustomerFlagged":0,"CustomerId":0,"CustomerLastName":null,"CustomerMiddleName":null} 
+Finished at 2020-03-03 01:10:23
+Logs for /widget/gateway/test-payment-success/?rid=A000011583194191
+[2020-03-03 01:11:24]	[DEBUG]	Row ID received: 385 
+Finished at 2020-03-03 01:11:24
+Logs for /widget/pay/tx-success/?ref=CVRS15831942832322&id=385
+[2020-03-03 01:27:00]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 01:27:00]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 01:27:00]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 01:27:00]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 01:27:00]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 01:27:00]	[WARN]	Validator failed : [ models\forms\validationrules\Text ] for  account reason: The account number you specified is not valid. 
+[2020-03-03 01:27:00]	[WARN]	Validator failed : [ models\forms\validationrules\ArrayObjectValidator ] for  bank reason: The account number you specified is not valid. 
+Finished at 2020-03-03 01:27:00
+Logs for /widget/pay/tx-success/?ref=CVRS15831942832322&id=385
+[2020-03-03 01:27:18]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 01:27:18]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 01:27:18]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 01:27:18]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 01:27:18]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 01:27:18]	[DEBUG]	Data {
+    "CustomerEmail": "ajtreme@yahoo.co",
+    "CustomerAccNo": "1029876120",
+    "CustomerCbnCode": "044",
+    "CustomerMobile": "07018044979",
+    "FundSecureDate": "2020-03-03 01:27:18",
+    "FundSecured": "00",
+    "ReservationId": "A000011583194191"
+} 
+[2020-03-03 01:27:18]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerId":1016} 
+Finished at 2020-03-03 01:27:18
+Logs for /widget/reservation
+[2020-03-03 01:29:12]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 01:29:12]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 01:29:12]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 01:29:12]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 01:29:12]	[INFO]	Splits are being validated 
+[2020-03-03 01:29:12]	[DEBUG]	Data {
+    "DeliveryDuration": 20,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 1500,
+    "OrderNumber": "TEST982350",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-03 01:29:12",
+    "ReservationId": "A000011583195352",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0912345982",
+            "CbnCode": "301",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-03 01:29:13]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583195352"} 
+[2020-03-03 01:29:13]	[DEBUG]	Row ID received: A000011583195352 
+Finished at 2020-03-03 01:29:13
+Logs for /widget/pay/?rid=A000011583195352&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-03 01:29:28]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["044"],"CustomerFirstName":null,"CustomerFlagged":0,"CustomerId":1016,"CustomerLastName":null,"CustomerMiddleName":null} 
+Finished at 2020-03-03 01:29:28
+Logs for /widget/gateway/test-payment-success/?rid=A000011583195352
+[2020-03-03 01:30:26]	[DEBUG]	Row ID received: 386 
+Finished at 2020-03-03 01:30:26
+Logs for /widget/pay/tx-success/?ref=CVRS15831954265382&id=386
+[2020-03-03 01:30:26]	[DEBUG]	Data {
+    "CustomerId": "1016",
+    "FundSecureDate": "2020-03-03 01:30:26",
+    "FundSecured": "00",
+    "PayRefBank": "044",
+    "ReservationId": "A000011583195352"
+} 
+[2020-03-03 01:30:27]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK"} 
+Finished at 2020-03-03 01:30:27
+Logs for /widget/reservation
+[2020-03-03 01:47:35]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 01:47:35]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 01:47:35]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 01:47:35]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 01:47:35]	[INFO]	Splits are being validated 
+[2020-03-03 01:47:35]	[DEBUG]	Data {
+    "DeliveryDuration": 1,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 250,
+    "OrderNumber": "MICO150004",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-03 01:47:35",
+    "ReservationId": "A000011583196455",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0912987126",
+            "CbnCode": "033",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-03 01:47:36]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583196455"} 
+[2020-03-03 01:47:36]	[DEBUG]	Row ID received: A000011583196455 
+Finished at 2020-03-03 01:47:36
+Logs for /widget/pay/?rid=A000011583196455&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-03 01:48:07]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-03 01:48:07
+Logs for /widget/gateway/test-payment-success/?rid=A000011583196455
+[2020-03-03 01:49:07]	[DEBUG]	Row ID received: 387 
+Finished at 2020-03-03 01:49:07
+Logs for /widget/pay/tx-success/?ref=CVRS15831965479304&id=387
+[2020-03-03 01:49:07]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-03-03 01:49:07",
+    "FundSecured": "00",
+    "PayRefBank": "058",
+    "ReservationId": "A000011583196455"
+} 
+[2020-03-03 01:49:08]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK"} 
+Finished at 2020-03-03 01:49:08
+Logs for /widget/reservation/
+[2020-03-03 20:33:02]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:33:02]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:33:02]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:33:02]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:33:02]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:33:02]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:33:02]	[INFO]	Splits are being validated 
+[2020-03-03 20:33:02]	[DEBUG]	Data {
+    "DeliveryDuration": 8,
+    "DeliveryFee": 120,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 30000,
+    "OrderNumber": "TS1993021928377",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-03 20:32:49",
+    "ReservationId": "A000022300000934",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 24.5
+        },
+        {
+            "AccountNo": "2001456941",
+            "CbnCode": "058",
+            "SplitPercentage": 75.5
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-03-03 20:33:09]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Delivery fee must be greater than: 120","ReservationId":null} 
+Finished at 2020-03-03 20:33:09
+Logs for /widget/reservation/
+[2020-03-03 20:34:28]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:34:28]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:34:28]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:34:28]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:34:28]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:34:28]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:34:28]	[INFO]	Splits are being validated 
+[2020-03-03 20:34:28]	[DEBUG]	Data {
+    "DeliveryDuration": 8,
+    "DeliveryFee": 140,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 30000,
+    "OrderNumber": "TS1993021928377",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-03 20:32:49",
+    "ReservationId": "A000022300000934",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 24.5
+        },
+        {
+            "AccountNo": "2001456941",
+            "CbnCode": "058",
+            "SplitPercentage": 75.5
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-03-03 20:34:28]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Delivery fee must be greater than: 140","ReservationId":null} 
+Finished at 2020-03-03 20:34:28
+Logs for /widget/reservation/
+[2020-03-03 20:34:47]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:34:47]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:34:47]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:34:47]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:34:47]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:34:47]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:34:47]	[INFO]	Splits are being validated 
+[2020-03-03 20:34:47]	[DEBUG]	Data {
+    "DeliveryDuration": 8,
+    "DeliveryFee": 145,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 30000,
+    "OrderNumber": "TS1993021928377",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-03 20:32:49",
+    "ReservationId": "A000022300000934",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 24.5
+        },
+        {
+            "AccountNo": "2001456941",
+            "CbnCode": "058",
+            "SplitPercentage": 75.5
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-03-03 20:34:47]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Delivery fee must be greater than: 145","ReservationId":null} 
+Finished at 2020-03-03 20:34:47
+Logs for /widget/reservation/
+[2020-03-03 20:35:04]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:35:04]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:35:04]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:35:04]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:35:04]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:35:04]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:35:04]	[INFO]	Splits are being validated 
+[2020-03-03 20:35:04]	[DEBUG]	Data {
+    "DeliveryDuration": 8,
+    "DeliveryFee": 149,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 30000,
+    "OrderNumber": "TS1993021928377",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-03 20:32:49",
+    "ReservationId": "A000022300000934",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 24.5
+        },
+        {
+            "AccountNo": "2001456941",
+            "CbnCode": "058",
+            "SplitPercentage": 75.5
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-03-03 20:35:05]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Delivery fee must be greater than: 149","ReservationId":null} 
+Finished at 2020-03-03 20:35:05
+Logs for /widget/reservation
+[2020-03-03 20:38:27]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:38:27]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:38:27]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:38:27]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:38:27]	[INFO]	Splits are being validated 
+[2020-03-03 20:38:27]	[DEBUG]	Data {
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 3500,
+    "OrderNumber": "REFUND150",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-03 20:38:27",
+    "ReservationId": "A000011583264307",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0912987651",
+            "CbnCode": "032",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-03 20:38:28]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583264307"} 
+[2020-03-03 20:38:28]	[DEBUG]	Row ID received: A000011583264307 
+Finished at 2020-03-03 20:38:28
+Logs for /widget/pay/?rid=A000011583264307&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-03 20:40:50]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-03 20:40:50
+Logs for /widget/gateway/test-payment-success/?rid=A000011583264307
+[2020-03-03 20:41:57]	[DEBUG]	Row ID received: 388 
+Finished at 2020-03-03 20:41:57
+Logs for /widget/pay/tx-success/?ref=CVRS15832645174858&id=388
+[2020-03-03 20:41:58]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-03-03 20:41:58",
+    "FundSecured": "00",
+    "PayRefBank": "058",
+    "ReservationId": "A000011583264307"
+} 
+[2020-03-03 20:41:58]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK"} 
+Finished at 2020-03-03 20:41:58
+Logs for /widget/reservation
+[2020-03-03 20:52:05]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:52:05]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-03 20:52:05]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:52:05]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-03 20:52:05]	[INFO]	Splits are being validated 
+[2020-03-03 20:52:05]	[DEBUG]	Data {
+    "DeliveryDuration": 1,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 12000,
+    "OrderNumber": "REFDTEST00",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-03 20:52:04",
+    "ReservationId": "A000011583265124",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0912345987",
+            "CbnCode": "215",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-03 20:52:05]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583265124"} 
+[2020-03-03 20:52:05]	[DEBUG]	Row ID received: A000011583265124 
+Finished at 2020-03-03 20:52:05
+Logs for /widget/pay/?rid=A000011583265124&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-03 20:52:28]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["100"],"CustomerFirstName":"Deacon","CustomerFlagged":0,"CustomerId":11,"CustomerLastName":"Marvelous","CustomerMiddleName":null} 
+Finished at 2020-03-03 20:52:28
+Logs for /widget/gateway/test-payment-success/?rid=A000011583265124
+[2020-03-03 20:53:23]	[DEBUG]	Row ID received: 389 
+Finished at 2020-03-03 20:53:23
+Logs for /widget/pay/tx-success/?ref=CVRS15832652034540&id=389
+[2020-03-03 20:53:25]	[DEBUG]	Data {
+    "CustomerId": "11",
+    "FundSecureDate": "2020-03-03 20:53:25",
+    "FundSecured": "00",
+    "PayRefBank": "100",
+    "ReservationId": "A000011583265124"
+} 
+[2020-03-03 20:53:25]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK"} 
+Finished at 2020-03-03 20:53:25
+Logs for /widget/reservation
+[2020-03-05 01:29:14]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-05 01:29:14]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-05 01:29:14]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-05 01:29:14]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-05 01:29:14]	[INFO]	Splits are being validated 
+[2020-03-05 01:29:14]	[DEBUG]	Data {
+    "DeliveryDuration": 12,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 10000,
+    "OrderNumber": "SCRDATETST",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-05 01:29:12",
+    "ReservationId": "A000011583368152",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921983471",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-05 01:29:18]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583368152"} 
+[2020-03-05 01:29:18]	[DEBUG]	Row ID received: A000011583368152 
+Finished at 2020-03-05 01:29:18
+Logs for /widget/pay/?rid=A000011583368152&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-05 01:30:04]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Invalid Customer Details","CustomerCbnCode":null,"CustomerFirstName":null,"CustomerFlagged":0,"CustomerId":0,"CustomerLastName":null,"CustomerMiddleName":null} 
+Finished at 2020-03-05 01:30:04
+Logs for /widget/gateway/test-payment-success/?rid=A000011583368152
+[2020-03-05 01:30:55]	[DEBUG]	Row ID received: 390 
+Finished at 2020-03-05 01:30:55
+Logs for /widget/pay/tx-success/?ref=CVRS15833682553478&id=390
+[2020-03-05 01:31:36]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-05 01:31:36]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-05 01:31:36]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-05 01:31:36]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-05 01:31:36]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-05 01:31:36]	[DEBUG]	Data {
+    "CustomerEmail": "ajtreme@yahoo.com",
+    "CustomerAccNo": "1000239109",
+    "CustomerCbnCode": "057",
+    "CustomerMobile": "07018044988",
+    "FundSecureDate": "2020-03-05 01:31:36",
+    "FundSecured": "00",
+    "ReservationId": "A000011583368152"
+} 
+[2020-03-05 01:31:37]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerId":1017} 
+Finished at 2020-03-05 01:31:37
+Logs for /widget/reservation
+[2020-03-05 21:17:42]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-05 21:17:42]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-05 21:17:42]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-05 21:17:42]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-05 21:17:42]	[INFO]	Splits are being validated 
+[2020-03-05 21:17:42]	[DEBUG]	Data {
+    "DeliveryDuration": 20,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 12000,
+    "OrderNumber": "DONE23000",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-05 21:17:41",
+    "ReservationId": "A000011583439461",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921984380",
+            "CbnCode": "035",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-05 21:17:46]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583439461"} 
+[2020-03-05 21:17:46]	[DEBUG]	Row ID received: A000011583439461 
+Finished at 2020-03-05 21:17:46
+Logs for /widget/pay/?rid=A000011583439461&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-05 21:18:02]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-05 21:18:02
+Logs for /widget/gateway/test-payment-success/?rid=A000011583439461
+[2020-03-05 21:19:06]	[DEBUG]	Row ID received: 391 
+Finished at 2020-03-05 21:19:06
+Logs for /widget/pay/tx-success/?ref=CVRS15834395468780&id=391
+[2020-03-05 21:19:06]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-03-05 21:19:06",
+    "FundSecured": "00",
+    "PayRefBank": "058",
+    "ReservationId": "A000011583439461"
+} 
+[2020-03-05 21:19:07]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK"} 
+Finished at 2020-03-05 21:19:07
+Logs for /widget/reservation
+[2020-03-05 21:40:25]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-05 21:40:25]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-05 21:40:25]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-05 21:40:25]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-05 21:40:25]	[INFO]	Splits are being validated 
+[2020-03-05 21:40:25]	[DEBUG]	Data {
+    "DeliveryDuration": 1,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 2500,
+    "OrderNumber": "SOGONE123",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-05 21:40:25",
+    "ReservationId": "A000011583440825",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "9081287309",
+            "CbnCode": "030",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-05 21:40:28]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583440825"} 
+[2020-03-05 21:40:28]	[DEBUG]	Row ID received: A000011583440825 
+Finished at 2020-03-05 21:40:28
+Logs for /widget/pay/?rid=A000011583440825&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-05 21:42:59]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-05 21:42:59
+Logs for /widget/gateway/test-payment-failed/?rid=A000011583440825
+[2020-03-05 21:43:20]	[DEBUG]	Row ID received: 392 
+Finished at 2020-03-05 21:43:20
+Logs for /widget/pay/tx-failed/?ref=CVRS15834410001639&id=392
+[2020-03-05 21:43:20]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-03-05 21:43:20",
+    "FundSecured": "G3",
+    "PayRefBank": "058",
+    "ReservationId": "A000011583440825"
+} 
+[2020-03-05 21:43:21]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Invalid Request. FundSecured must be 00"} 
+[2020-03-05 21:43:21]	[ERROR]	Could not get secure update Invalid Request. FundSecured must be 00 
+Finished at 2020-03-05 21:43:21
+Logs for /widget/reservation
+[2020-03-05 21:58:22]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-05 21:58:22]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-05 21:58:22]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-05 21:58:22]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-05 21:58:22]	[INFO]	Splits are being validated 
+[2020-03-05 21:58:22]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 2500,
+    "OrderNumber": "DNE8900217",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-05 21:58:22",
+    "ReservationId": "A000011583441902",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1029888900",
+            "CbnCode": "232",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-05 21:58:23]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583441902"} 
+[2020-03-05 21:58:23]	[DEBUG]	Row ID received: A000011583441902 
+Finished at 2020-03-05 21:58:23
+Logs for /widget/pay/?rid=A000011583441902&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-05 22:02:26]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["100"],"CustomerFirstName":"Deacon","CustomerFlagged":0,"CustomerId":11,"CustomerLastName":"Marvelous","CustomerMiddleName":null} 
+Finished at 2020-03-05 22:02:26
+Logs for /widget/gateway/test-payment-failed/?rid=A000011583441902
+[2020-03-05 22:02:34]	[DEBUG]	Row ID received: 393 
+Finished at 2020-03-05 22:02:34
+Logs for /widget/pay/tx-failed/?ref=CVRS15834421545719&id=393
+[2020-03-05 22:02:35]	[DEBUG]	Data {
+    "CustomerId": "11",
+    "FundSecureDate": "2020-03-05 22:02:35",
+    "FundSecured": "G3",
+    "PayRefBank": "100",
+    "ReservationId": "A000011583441902"
+} 
+[2020-03-05 22:02:35]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Invalid Request. FundSecured must be 00"} 
+[2020-03-05 22:02:35]	[ERROR]	Could not get secure update Invalid Request. FundSecured must be 00 
+Finished at 2020-03-05 22:02:35
+Logs for /widget/reservation
+[2020-03-05 22:09:00]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-05 22:09:00]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-05 22:09:00]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-05 22:09:00]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-05 22:09:00]	[INFO]	Splits are being validated 
+[2020-03-05 22:09:00]	[DEBUG]	Data {
+    "DeliveryDuration": 5,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme2@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 1200,
+    "OrderNumber": "GOLIVE1000",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-05 22:08:59",
+    "ReservationId": "A000011583442539",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0192873210",
+            "CbnCode": "215",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-05 22:09:00]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583442539"} 
+[2020-03-05 22:09:00]	[DEBUG]	Row ID received: A000011583442539 
+Finished at 2020-03-05 22:09:00
+Logs for /widget/pay/?rid=A000011583442539&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-05 22:11:32]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["044"],"CustomerFirstName":null,"CustomerFlagged":0,"CustomerId":1015,"CustomerLastName":null,"CustomerMiddleName":null} 
+Finished at 2020-03-05 22:11:32
+Logs for /widget/gateway/test-payment-success/?rid=A000011583442539
+[2020-03-05 22:12:21]	[DEBUG]	Row ID received: 394 
+Finished at 2020-03-05 22:12:21
+Logs for /widget/pay/tx-success/?ref=CVRS15834427412516&id=394
+[2020-03-05 22:12:21]	[DEBUG]	Data {
+    "CustomerId": "1015",
+    "FundSecureDate": "2020-03-05 22:12:21",
+    "FundSecured": "00",
+    "PayRefBank": "044",
+    "ReservationId": "A000011583442539"
+} 
+[2020-03-05 22:12:22]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK"} 
+Finished at 2020-03-05 22:12:22
+Logs for /widget/reservation
+[2020-03-06 03:03:18]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-06 03:03:18]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-06 03:03:18]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-06 03:03:18]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-06 03:03:18]	[INFO]	Splits are being validated 
+[2020-03-06 03:03:18]	[DEBUG]	Data {
+    "DeliveryDuration": 5,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 500,
+    "OrderNumber": "MSCHEW1200",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-06 03:03:17",
+    "ReservationId": "A000011583460197",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0912987610",
+            "CbnCode": "100",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-06 03:03:21]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583460197"} 
+[2020-03-06 03:03:21]	[DEBUG]	Row ID received: A000011583460197 
+Finished at 2020-03-06 03:03:21
+Logs for /widget/pay/?rid=A000011583460197&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-06 03:03:57]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["100"],"CustomerFirstName":"Deacon","CustomerFlagged":0,"CustomerId":11,"CustomerLastName":"Marvelous","CustomerMiddleName":null} 
+Finished at 2020-03-06 03:03:57
+Logs for /widget/gateway/test-payment-success/?rid=A000011583460197
+[2020-03-06 03:04:37]	[DEBUG]	Row ID received: 395 
+Finished at 2020-03-06 03:04:37
+Logs for /widget/pay/tx-success/?ref=CVRS15834602776100&id=395
+[2020-03-06 03:04:37]	[DEBUG]	Data {
+    "CustomerId": "11",
+    "FundSecureDate": "2020-03-06 03:04:37",
+    "FundSecured": "00",
+    "PayRefBank": "100",
+    "ReservationId": "A000011583460197"
+} 
+[2020-03-06 03:04:38]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK"} 
+Finished at 2020-03-06 03:04:38
+Logs for /widget/reservation
+[2020-03-08 09:04:14]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-08 09:04:14]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-08 09:04:14]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-08 09:04:14]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-08 09:04:14]	[INFO]	Splits are being validated 
+[2020-03-08 09:04:14]	[DEBUG]	Data {
+    "DeliveryDuration": 6,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08137674206",
+    "OrderAmount": 6500,
+    "OrderNumber": "TAG165000",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-08 09:04:10",
+    "ReservationId": "A000011583654650",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0918321098",
+            "CbnCode": "030",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-08 09:04:18]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011583654650"} 
+[2020-03-08 09:04:18]	[DEBUG]	Row ID received: A000011583654650 
+Finished at 2020-03-08 09:04:19
+Logs for /widget/reservation
+[2020-03-29 23:33:47]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-29 23:33:47]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-29 23:33:47]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-29 23:33:47]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-29 23:33:47]	[INFO]	Splits are being validated 
+[2020-03-29 23:33:47]	[DEBUG]	Data {
+    "DeliveryDuration": 8,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08137674206",
+    "OrderAmount": 65000,
+    "OrderNumber": "EVNT650",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-29 23:33:45",
+    "ReservationId": "A000011585521225",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "5680123456",
+            "CbnCode": "214",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-29 23:33:52]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011585521225"} 
+[2020-03-29 23:33:52]	[DEBUG]	Row ID received: A000011585521225 
+Finished at 2020-03-29 23:33:52
+Logs for /widget/pay/?rid=A000011585521225&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-29 23:36:54]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-29 23:36:54
+Logs for /widget/gateway/test-payment-failed/?rid=A000011585521225
+[2020-03-29 23:37:08]	[DEBUG]	Row ID received: 396 
+Finished at 2020-03-29 23:37:08
+Logs for /widget/pay/tx-failed/?ref=CVRS15855214286351&id=396
+[2020-03-29 23:37:09]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-03-29 23:37:09",
+    "FundSecured": "G3",
+    "PayRefBank": "058",
+    "ReservationId": "A000011585521225"
+} 
+[2020-03-29 23:37:09]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Invalid Request. FundSecured must be 00"} 
+[2020-03-29 23:37:09]	[ERROR]	Could not get secure update Invalid Request. FundSecured must be 00 
+Finished at 2020-03-29 23:37:09
+Logs for /widget/reservation
+[2020-03-30 08:16:37]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-30 08:16:37]	[DEBUG]	Processing rules with priority, 0 
+[2020-03-30 08:16:37]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-30 08:16:37]	[DEBUG]	Processing rules with priority, 1 
+[2020-03-30 08:16:37]	[INFO]	Splits are being validated 
+[2020-03-30 08:16:37]	[DEBUG]	Data {
+    "DeliveryDuration": 20,
+    "DeliveryFee": 150,
+    "DispatchEmail": "a.ezeadiebuo@yahoo.com",
+    "DispatchMobile": "08137674206",
+    "OrderAmount": 15000,
+    "OrderNumber": "DONE4500",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-03-30 08:16:36",
+    "ReservationId": "A000011585552596",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "3467899245",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-03-30 08:16:38]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011585552596"} 
+[2020-03-30 08:16:38]	[DEBUG]	Row ID received: A000011585552596 
+Finished at 2020-03-30 08:16:38
+Logs for /widget/pay/?rid=A000011585552596&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-03-30 10:27:53]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-03-30 10:27:53
+Logs for /widget/gateway/test-payment-failed/?rid=A000011585552596
+[2020-03-30 10:28:01]	[DEBUG]	Row ID received: 397 
+Finished at 2020-03-30 10:28:01
+Logs for /widget/pay/tx-failed/?ref=CVRS15855604811941&id=397
+[2020-03-30 10:28:02]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-03-30 10:28:02",
+    "FundSecured": "G3",
+    "PayRefBank": "058",
+    "ReservationId": "A000011585552596"
+} 
+[2020-03-30 10:28:02]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Invalid Request. FundSecured must be 00"} 
+[2020-03-30 10:28:02]	[ERROR]	Could not get secure update Invalid Request. FundSecured must be 00 
+Finished at 2020-03-30 10:28:02
+Logs for /widget/reservation
+[2020-04-04 15:27:33]	[DEBUG]	Processing rules with priority, 0 
+[2020-04-04 15:27:33]	[DEBUG]	Processing rules with priority, 0 
+[2020-04-04 15:27:33]	[DEBUG]	Processing rules with priority, 1 
+[2020-04-04 15:27:33]	[DEBUG]	Processing rules with priority, 1 
+[2020-04-04 15:27:33]	[INFO]	Splits are being validated 
+[2020-04-04 15:27:33]	[DEBUG]	Data {
+    "DeliveryDuration": 1,
+    "DeliveryFee": 150,
+    "DispatchEmail": "a.ezeadiebuo@yahoo.com",
+    "DispatchMobile": "08137674206",
+    "OrderAmount": 15000,
+    "OrderNumber": "TESTIN001",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-04-04 15:27:30",
+    "ReservationId": "A000011586010450",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0986530085",
+            "CbnCode": "214",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-04-04 15:27:37]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011586010450"} 
+[2020-04-04 15:27:38]	[DEBUG]	Row ID received: A000011586010450 
+Finished at 2020-04-04 15:27:38
+Logs for /widget/pay/?rid=A000011586010450&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-04-04 15:28:28]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-04-04 15:28:28
+Logs for /widget/gateway/test-payment-failed/?rid=A000011586010450
+[2020-04-04 15:28:55]	[DEBUG]	Row ID received: 398 
+Finished at 2020-04-04 15:28:55
+Logs for /widget/pay/tx-failed/?ref=CVRS15860105356693&id=398
+[2020-04-04 15:28:56]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-04-04 15:28:56",
+    "FundSecured": "G3",
+    "PayRefBank": "058",
+    "ReservationId": "A000011586010450"
+} 
+[2020-04-04 15:28:56]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Invalid Request. FundSecured must be 00"} 
+[2020-04-04 15:28:56]	[ERROR]	Could not get secure update Invalid Request. FundSecured must be 00 
+Finished at 2020-04-04 15:28:56
+Logs for /widget/reservation
+[2020-04-28 20:52:48]	[DEBUG]	Processing rules with priority, 0 
+[2020-04-28 20:52:48]	[DEBUG]	Processing rules with priority, 0 
+[2020-04-28 20:52:48]	[DEBUG]	Processing rules with priority, 1 
+[2020-04-28 20:52:48]	[DEBUG]	Processing rules with priority, 1 
+[2020-04-28 20:52:48]	[INFO]	Splits are being validated 
+[2020-04-28 20:52:48]	[DEBUG]	Data {
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 12000,
+    "OrderNumber": "Solong",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-04-28 20:52:47",
+    "ReservationId": "A000011588103567",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0532156789",
+            "CbnCode": "030",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-04-28 20:52:52]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011588103567"} 
+[2020-04-28 20:52:53]	[DEBUG]	Row ID received: A000011588103567 
+Finished at 2020-04-28 20:52:53
+Logs for /widget/pay/?rid=A000011588103567&returnUrl=https%3A%2F%2Fstaging.streetzwyze.com%2F
+[2020-04-28 20:53:36]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-04-28 20:53:36
+Logs for /widget/gateway/test-payment-failed/?rid=A000011588103567
+[2020-04-28 20:53:57]	[DEBUG]	Row ID received: 399 
+Finished at 2020-04-28 20:53:57
+Logs for /widget/pay/tx-failed/?ref=CVRS15881036379496&id=399
+[2020-04-28 20:53:57]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-04-28 20:53:57",
+    "FundSecured": "G3",
+    "PayRefBank": "058",
+    "ReservationId": "A000011588103567"
+} 
+[2020-04-28 20:53:58]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Invalid Request. FundSecured must be 00"} 
+[2020-04-28 20:53:58]	[ERROR]	Could not get secure update Invalid Request. FundSecured must be 00 
+Finished at 2020-04-28 20:53:58
+Logs for /widget/reservation
+[2020-05-28 22:48:06]	[DEBUG]	Processing rules with priority, 0 
+[2020-05-28 22:48:07]	[DEBUG]	Processing rules with priority, 0 
+[2020-05-28 22:48:07]	[DEBUG]	Processing rules with priority, 1 
+[2020-05-28 22:48:07]	[DEBUG]	Processing rules with priority, 1 
+[2020-05-28 22:48:07]	[INFO]	Splits are being validated 
+[2020-05-28 22:48:07]	[DEBUG]	Data {
+    "DeliveryDuration": 15,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "OrderAmount": 15000,
+    "OrderNumber": "EMLTEST00",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-05-28 22:48:05",
+    "ReservationId": "A000011590702485",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0912873498",
+            "CbnCode": "215",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/staging.streetzwyze.com\/"
+} 
+[2020-05-28 22:48:08]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000011590702485"} 
+[2020-05-28 22:48:08]	[DEBUG]	Row ID received: A000011590702485 
+Finished at 2020-05-28 22:48:08
+Logs for /widget/reservation/
+[2020-05-28 23:00:22]	[DEBUG]	Processing rules with priority, 0 
+[2020-05-28 23:00:22]	[DEBUG]	Processing rules with priority, 0 
+[2020-05-28 23:00:22]	[DEBUG]	Processing rules with priority, 1 
+[2020-05-28 23:00:22]	[DEBUG]	Processing rules with priority, 0 
+[2020-05-28 23:00:22]	[DEBUG]	Processing rules with priority, 1 
+[2020-05-28 23:00:22]	[DEBUG]	Processing rules with priority, 1 
+[2020-05-28 23:00:22]	[INFO]	Splits are being validated 
+[2020-05-28 23:00:22]	[DEBUG]	Data {
+    "DeliveryDuration": 8,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 32000,
+    "OrderNumber": "TS1993021928377",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-05-28 22:59:49",
+    "ReservationId": "A000022300000929",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 24.5
+        },
+        {
+            "AccountNo": "2001456941",
+            "CbnCode": "058",
+            "SplitPercentage": 75.5
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-05-28 23:00:22]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Reservation ID already exists A000022300000929","ReservationId":null} 
+Finished at 2020-05-28 23:00:22
+Logs for /widget/reservation/
+[2020-05-28 23:00:38]	[DEBUG]	Processing rules with priority, 0 
+[2020-05-28 23:00:38]	[DEBUG]	Processing rules with priority, 0 
+[2020-05-28 23:00:38]	[DEBUG]	Processing rules with priority, 1 
+[2020-05-28 23:00:38]	[DEBUG]	Processing rules with priority, 0 
+[2020-05-28 23:00:38]	[DEBUG]	Processing rules with priority, 1 
+[2020-05-28 23:00:38]	[DEBUG]	Processing rules with priority, 1 
+[2020-05-28 23:00:38]	[INFO]	Splits are being validated 
+[2020-05-28 23:00:38]	[DEBUG]	Data {
+    "DeliveryDuration": 8,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 32000,
+    "OrderNumber": "TS1993021928377",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-05-28 22:59:49",
+    "ReservationId": "A000022300000930",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 24.5
+        },
+        {
+            "AccountNo": "2001456941",
+            "CbnCode": "058",
+            "SplitPercentage": 75.5
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-05-28 23:00:38]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Delivery fee must be greater than: 0","ReservationId":null} 
+Finished at 2020-05-28 23:00:38
+Logs for /widget/reservation/
+[2020-05-28 23:01:46]	[DEBUG]	Processing rules with priority, 0 
+[2020-05-28 23:01:46]	[DEBUG]	Processing rules with priority, 0 
+[2020-05-28 23:01:46]	[DEBUG]	Processing rules with priority, 1 
+[2020-05-28 23:01:46]	[DEBUG]	Processing rules with priority, 0 
+[2020-05-28 23:01:46]	[DEBUG]	Processing rules with priority, 1 
+[2020-05-28 23:01:46]	[DEBUG]	Processing rules with priority, 1 
+[2020-05-28 23:01:46]	[INFO]	Splits are being validated 
+[2020-05-28 23:01:46]	[DEBUG]	Data {
+    "DeliveryDuration": 8,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 32000,
+    "OrderNumber": "TS1993021928377",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-05-28 22:59:49",
+    "ReservationId": "A000052300000930",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 24.5
+        },
+        {
+            "AccountNo": "2001456941",
+            "CbnCode": "058",
+            "SplitPercentage": 75.5
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-05-28 23:01:47]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Invalid Merchant details in reservation request: A000052300000930","ReservationId":null} 
+Finished at 2020-05-28 23:01:47
+Logs for /widget/reservation/
+[2020-05-28 23:02:03]	[DEBUG]	Processing rules with priority, 0 
+[2020-05-28 23:02:03]	[DEBUG]	Processing rules with priority, 0 
+[2020-05-28 23:02:03]	[DEBUG]	Processing rules with priority, 1 
+[2020-05-28 23:02:03]	[DEBUG]	Processing rules with priority, 0 
+[2020-05-28 23:02:03]	[DEBUG]	Processing rules with priority, 1 
+[2020-05-28 23:02:03]	[DEBUG]	Processing rules with priority, 1 
+[2020-05-28 23:02:03]	[INFO]	Splits are being validated 
+[2020-05-28 23:02:03]	[DEBUG]	Data {
+    "DeliveryDuration": 8,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 32000,
+    "OrderNumber": "TS1993021928377",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-05-28 22:59:49",
+    "ReservationId": "A000012300000930",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 24.5
+        },
+        {
+            "AccountNo": "2001456941",
+            "CbnCode": "058",
+            "SplitPercentage": 75.5
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-05-28 23:02:03]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Delivery fee must be greater than: 0","ReservationId":null} 
+Finished at 2020-05-28 23:02:03
+Logs for /widget/reservation/
+[2020-07-20 01:47:48]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-20 01:47:48]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-20 01:47:48]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-20 01:47:48]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-20 01:47:48]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-20 01:47:48]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-20 01:47:48]	[INFO]	Splits are being validated 
+[2020-07-20 01:47:48]	[DEBUG]	Data {
+    "DeliveryDuration": 8,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 2000,
+    "OrderNumber": "TS90828282828",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-20 01:47:49",
+    "ReservationId": "A000012300000930",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 24.5
+        },
+        {
+            "AccountNo": "2001456941",
+            "CbnCode": "058",
+            "SplitPercentage": 75.5
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-20 01:47:52]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Specified splits is greater than number allowed Max Split number of :1","ReservationId":null} 
+Finished at 2020-07-20 01:47:52
+Logs for /widget/reservation/
+[2020-07-20 01:48:42]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-20 01:48:42]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-20 01:48:42]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-20 01:48:42]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-20 01:48:42]	[INFO]	Splits are being validated 
+[2020-07-20 01:48:42]	[DEBUG]	Data {
+    "DeliveryDuration": 8,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 2000,
+    "OrderNumber": "TS90828282828",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-20 01:47:49",
+    "ReservationId": "A000012300000930",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-20 01:48:43]	[INFO]	Service returned the following:  {"ResponseCode":"01","ResponseDescription":"An error occurred while updating the entries. See the inner exception for details.","ReservationId":null} 
+Finished at 2020-07-20 01:48:43
+Logs for /widget/reservation/
+[2020-07-20 02:14:51]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-20 02:14:51]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-20 02:14:51]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-20 02:14:51]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-20 02:14:51]	[INFO]	Splits are being validated 
+[2020-07-20 02:14:51]	[DEBUG]	Data {
+    "DeliveryDuration": 8,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 2000,
+    "OrderNumber": "TS90828282828",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-20 01:47:49",
+    "ReservationId": "A000012300000930",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-20 02:14:56]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000012300000930"} 
+[2020-07-20 02:14:56]	[DEBUG]	Row ID received: A000012300000930 
+Finished at 2020-07-20 02:14:56
+Logs for /widget/pay/?rid=A000012300000930
+[2020-07-20 02:16:00]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-07-20 02:16:00
+Logs for /widget/gateway/test-payment-success/?rid=A000012300000930
+[2020-07-20 02:16:55]	[DEBUG]	Row ID received: 400 
+Finished at 2020-07-20 02:16:55
+Logs for /widget/pay/tx-success/?ref=CVRS15952078159909&id=400
+[2020-07-20 02:16:55]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-07-20 02:16:55",
+    "FundSecured": "00",
+    "PayRefBank": "058",
+    "ReservationId": "A000012300000930"
+} 
+[2020-07-20 02:16:56]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK"} 
+Finished at 2020-07-20 02:16:56
+Logs for /widget/reservation/
+[2020-07-21 21:38:56]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:38:56]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:38:56]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:38:56]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:38:56]	[WARN]	Validator failed : [ models\forms\validationrules\FloatType ] for  DeliveryFee reason: Delivery fee must be more than NGN 85.00 
+Finished at 2020-07-21 21:38:56
+Logs for /widget/reservation/
+[2020-07-21 21:39:33]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:39:33]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:39:33]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:39:33]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:39:33]	[INFO]	Splits are being validated 
+[2020-07-21 21:39:33]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 86,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 32850,
+    "OrderNumber": "TS90828282828",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-21 21:38:49",
+    "ReservationId": "A000012300000931",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-21 21:39:42]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000012300000931"} 
+[2020-07-21 21:39:42]	[DEBUG]	Row ID received: A000012300000931 
+Finished at 2020-07-21 21:39:42
+Logs for /widget/reservation/
+[2020-07-21 21:41:54]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:41:54]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:41:54]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:41:54]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:41:54]	[INFO]	Splits are being validated 
+[2020-07-21 21:41:54]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 86,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 32850,
+    "OrderNumber": "TSSOLO9000",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-21 21:41:49",
+    "ReservationId": "A0000200000121",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-21 21:41:54]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Delivery fee must be greater than: 86","ReservationId":null} 
+Finished at 2020-07-21 21:41:54
+Logs for /widget/reservation/
+[2020-07-21 21:42:32]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:42:32]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:42:32]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:42:32]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:42:32]	[INFO]	Splits are being validated 
+[2020-07-21 21:42:32]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 99,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 32850,
+    "OrderNumber": "TSSOLO9000",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-21 21:41:49",
+    "ReservationId": "A0000200000121",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-21 21:42:32]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Delivery fee must be greater than: 99","ReservationId":null} 
+Finished at 2020-07-21 21:42:32
+Logs for /widget/reservation/
+[2020-07-21 21:42:46]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:42:46]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:42:46]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:42:46]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:42:46]	[INFO]	Splits are being validated 
+[2020-07-21 21:42:46]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 32850,
+    "OrderNumber": "TSSOLO9000",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-21 21:41:49",
+    "ReservationId": "A0000200000121",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-21 21:42:46]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A0000200000121"} 
+[2020-07-21 21:42:46]	[DEBUG]	Row ID received: A0000200000121 
+Finished at 2020-07-21 21:42:46
+Logs for /widget/pay/?rid=A000012300000931
+[2020-07-21 21:45:58]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-07-21 21:45:58
+Logs for /widget/gateway/test-payment-success/?rid=A000012300000931
+[2020-07-21 21:47:00]	[DEBUG]	Row ID received: 401 
+Finished at 2020-07-21 21:47:00
+Logs for /widget/pay/tx-success/?ref=CVRS15953644208145&id=401
+[2020-07-21 21:47:01]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-07-21 21:47:01",
+    "FundSecured": "00",
+    "PayRefBank": "058",
+    "ReservationId": "A000012300000931"
+} 
+[2020-07-21 21:47:01]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK"} 
+Finished at 2020-07-21 21:47:02
+Logs for /widget/pay/?rid=A0000200000121
+[2020-07-21 21:48:26]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-07-21 21:48:26
+Logs for /widget/gateway/test-payment-success/?rid=A0000200000121
+[2020-07-21 21:49:16]	[DEBUG]	Row ID received: 402 
+Finished at 2020-07-21 21:49:16
+Logs for /widget/pay/tx-success/?ref=CVRS15953645564116&id=402
+[2020-07-21 21:49:16]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-07-21 21:49:16",
+    "FundSecured": "00",
+    "PayRefBank": "058",
+    "ReservationId": "A0000200000121"
+} 
+[2020-07-21 21:49:16]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK"} 
+Finished at 2020-07-21 21:49:16
+Logs for /widget/reservation/
+[2020-07-21 21:50:19]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:50:19]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:50:19]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:50:19]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:50:19]	[WARN]	Validator failed : [ models\forms\validationrules\FloatType ] for  DeliveryFee reason: Delivery fee must be more than NGN 85.00 
+Finished at 2020-07-21 21:50:19
+Logs for /widget/reservation/
+[2020-07-21 21:51:19]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:51:19]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:51:19]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:51:19]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:51:19]	[WARN]	Validator failed : [ models\forms\validationrules\FloatType ] for  DeliveryFee reason: Delivery fee must be more than NGN 85.00 
+Finished at 2020-07-21 21:51:19
+Logs for /widget/reservation/
+[2020-07-21 21:53:28]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:53:28]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:53:28]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:53:28]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:53:28]	[INFO]	Splits are being validated 
+[2020-07-21 21:53:28]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 85,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 3850,
+    "OrderNumber": "TSSOLO9010",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-21 21:41:49",
+    "ReservationId": "A0000100000129",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-21 21:53:29]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A0000100000129"} 
+[2020-07-21 21:53:29]	[DEBUG]	Row ID received: A0000100000129 
+Finished at 2020-07-21 21:53:29
+Logs for /widget/reservation/
+[2020-07-21 21:54:54]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:54:54]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:54:54]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:54:54]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:54:54]	[INFO]	Splits are being validated 
+[2020-07-21 21:54:54]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 85,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 9850,
+    "OrderNumber": "TSSOLO9010",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-21 21:41:49",
+    "ReservationId": "A000020000012900",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-21 21:54:54]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Delivery fee must be greater than: 85","ReservationId":null} 
+Finished at 2020-07-21 21:54:54
+Logs for /widget/reservation/
+[2020-07-21 21:55:08]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:55:08]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:55:08]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:55:08]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:55:08]	[INFO]	Splits are being validated 
+[2020-07-21 21:55:08]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 100,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 9850,
+    "OrderNumber": "TSSOLO9010",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-21 21:41:49",
+    "ReservationId": "A000020000012900",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-21 21:55:08]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000020000012900"} 
+[2020-07-21 21:55:08]	[DEBUG]	Row ID received: A000020000012900 
+Finished at 2020-07-21 21:55:08
+Logs for /widget/reservation/
+[2020-07-21 21:55:30]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:55:30]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:55:30]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:55:30]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:55:30]	[INFO]	Splits are being validated 
+[2020-07-21 21:55:30]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 99,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 9850,
+    "OrderNumber": "TSSOLO9010",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-21 21:41:49",
+    "ReservationId": "A000020000012901",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-21 21:55:30]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Delivery fee must be greater than: 99","ReservationId":null} 
+Finished at 2020-07-21 21:55:30
+Logs for /widget/reservation/
+[2020-07-21 21:55:48]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:55:48]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-21 21:55:48]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:55:48]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-21 21:55:48]	[INFO]	Splits are being validated 
+[2020-07-21 21:55:48]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 100,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 9850,
+    "OrderNumber": "TSSOLO9010",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-21 21:41:49",
+    "ReservationId": "A000020000012901",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-21 21:55:48]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000020000012901"} 
+[2020-07-21 21:55:48]	[DEBUG]	Row ID received: A000020000012901 
+Finished at 2020-07-21 21:55:48
+Logs for /widget/pay/?rid=A000020000012901
+[2020-07-21 21:56:22]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-07-21 21:56:22
+Logs for /widget/gateway/test-payment-failed/?rid=A000020000012901
+[2020-07-21 21:56:30]	[DEBUG]	Row ID received: 403 
+Finished at 2020-07-21 21:56:30
+Logs for /widget/pay/tx-failed/?ref=CVRS15953649908216&id=403
+[2020-07-21 21:56:30]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-07-21 21:56:30",
+    "FundSecured": "G3",
+    "PayRefBank": "058",
+    "ReservationId": "A000020000012901"
+} 
+[2020-07-21 21:56:31]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Invalid Request. FundSecured must be 00"} 
+[2020-07-21 21:56:31]	[ERROR]	Could not get secure update Invalid Request. FundSecured must be 00 
+Finished at 2020-07-21 21:56:31
+Logs for /widget/reservation/
+[2020-07-22 12:41:43]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-22 12:41:43]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-22 12:41:43]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-22 12:41:43]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-22 12:41:43]	[WARN]	Validator failed : [ models\forms\validationrules\FloatType ] for  DeliveryFee reason: Delivery fee must be more than NGN 85.00 
+Finished at 2020-07-22 12:41:43
+Logs for /widget/reservation/
+[2020-07-22 12:42:29]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-22 12:42:29]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-22 12:42:29]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-22 12:42:29]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-22 12:42:29]	[INFO]	Splits are being validated 
+[2020-07-22 12:42:29]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 85,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 7850,
+    "OrderNumber": "TSSOLO9010",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-22 12:41:49",
+    "ReservationId": "A000010000012902",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0921874398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-22 12:42:29]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000010000012902"} 
+[2020-07-22 12:42:29]	[DEBUG]	Row ID received: A000010000012902 
+Finished at 2020-07-22 12:42:29
+Logs for /widget/pay/?rid=A000010000012902
+[2020-07-22 12:43:19]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["058"],"CustomerFirstName":"CHINEDUM","CustomerFlagged":0,"CustomerId":2,"CustomerLastName":"EZEADIEBUO","CustomerMiddleName":null} 
+Finished at 2020-07-22 12:43:19
+Logs for /widget/gateway/test-payment-success/?rid=A000010000012902
+[2020-07-22 12:44:09]	[DEBUG]	Row ID received: 404 
+Finished at 2020-07-22 12:44:09
+Logs for /widget/pay/tx-success/?ref=CVRS15954182493447&id=404
+[2020-07-22 12:44:09]	[DEBUG]	Data {
+    "CustomerId": "2",
+    "FundSecureDate": "2020-07-22 12:44:09",
+    "FundSecured": "00",
+    "PayRefBank": "058",
+    "ReservationId": "A000010000012902"
+} 
+[2020-07-22 12:44:10]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK"} 
+Finished at 2020-07-22 12:44:10
+Logs for /widget/reservation/
+[2020-07-23 00:07:21]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 00:07:21]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 00:07:21]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 00:07:21]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 00:07:21]	[INFO]	Splits are being validated 
+[2020-07-23 00:07:21]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 5000,
+    "OrderNumber": "TSSOLO9010",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-23 00:05:49",
+    "ReservationId": "A000040000001",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-23 00:07:24]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Order amount cannot Be less than: 10000.00","ReservationId":null} 
+Finished at 2020-07-23 00:07:24
+Logs for /widget/reservation/
+[2020-07-23 00:07:46]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 00:07:46]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 00:07:46]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 00:07:46]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 00:07:46]	[INFO]	Splits are being validated 
+[2020-07-23 00:07:46]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 15000,
+    "OrderNumber": "TSSOLO9010",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-23 00:05:49",
+    "ReservationId": "A000040000001",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-23 00:07:47]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Delivery fee must be greater than: 0","ReservationId":null} 
+Finished at 2020-07-23 00:07:47
+Logs for /widget/reservation/
+[2020-07-23 00:24:52]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 00:24:52]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 00:24:52]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 00:24:52]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 00:24:52]	[INFO]	Splits are being validated 
+[2020-07-23 00:24:52]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 15000,
+    "OrderNumber": "TSSOLO9010",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-23 00:05:49",
+    "ReservationId": "A000040000001",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-23 00:24:56]	[INFO]	Service returned the following:  {"ResponseCode":"01","ResponseDescription":"Object reference not set to an instance of an object.","ReservationId":null} 
+Finished at 2020-07-23 00:24:56
+Logs for /widget/reservation/
+[2020-07-23 01:09:11]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 01:09:11]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 01:09:11]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 01:09:11]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 01:09:11]	[INFO]	Splits are being validated 
+[2020-07-23 01:09:11]	[DEBUG]	Data {
+    "DeliveryDuration": 2,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DHL",
+    "OrderAmount": 15000,
+    "OrderNumber": "TSSOLO9010",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-23 01:09:49",
+    "ReservationId": "A000040000001",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-23 01:09:15]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000040000001"} 
+[2020-07-23 01:09:15]	[DEBUG]	Row ID received: A000040000001 
+Finished at 2020-07-23 01:09:15
+Logs for /widget/pay/?rid=A000040000001
+[2020-07-23 01:10:58]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":[],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-23 01:10:58
+Logs for /widget/gateway/test-payment-success/?rid=A000040000001
+[2020-07-23 01:11:48]	[DEBUG]	Row ID received: 405 
+Finished at 2020-07-23 01:11:48
+Logs for /widget/pay/tx-success/?ref=CVRS15954631087216&id=405
+[2020-07-23 01:12:43]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 01:12:43]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 01:12:43]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 01:12:43]	[WARN]	Validator failed : [ models\forms\validationrules\Text ] for  account reason: The account number you specified is not valid. 
+[2020-07-23 01:12:43]	[WARN]	Validator failed : [ models\forms\validationrules\ArrayObjectValidator ] for  bank reason: The account number you specified is not valid. 
+Finished at 2020-07-23 01:12:43
+Logs for /widget/pay/tx-success/?ref=CVRS15954631087216&id=405
+[2020-07-23 01:13:12]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 01:13:12]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 01:13:12]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 01:13:12]	[DEBUG]	Data {
+    "reservationId": "A000040000001",
+    "CustomerAccountNo": "0129831873",
+    "CustomerCBNCode": "044",
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-23 01:13:12",
+    "FundSecured": "00"
+} 
+[2020-07-23 01:13:12]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Invalid Reservation Details. Fund Source Not Found for ReservationID: "} 
+Finished at 2020-07-23 01:13:12
+Logs for /widget/reservation/
+[2020-07-23 22:18:32]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 22:18:32]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 22:18:32]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 22:18:32]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 22:18:32]	[INFO]	Splits are being validated 
+[2020-07-23 22:18:32]	[DEBUG]	Data {
+    "CustomerMobile": "0803334030",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 12850,
+    "OrderNumber": "TSSOLO902098",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-23 22:16:49",
+    "ReservationId": "A0000400000002",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-23 22:18:32]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A0000400000002"} 
+[2020-07-23 22:18:33]	[DEBUG]	Row ID received: A0000400000002 
+Finished at 2020-07-23 22:18:33
+Logs for /widget/reservation/
+[2020-07-23 22:23:24]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 22:23:24]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 22:23:24]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 22:23:24]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 22:23:24]	[INFO]	Splits are being validated 
+[2020-07-23 22:23:24]	[DEBUG]	Data {
+    "CustomerMobile": "0803334030",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 12850,
+    "OrderNumber": "TSSOLO902098",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-23 22:16:49",
+    "ReservationId": "A0000400000002",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-23 22:23:25]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Reservation ID already exists A0000400000002","ReservationId":null} 
+Finished at 2020-07-23 22:23:25
+Logs for /widget/reservation/
+[2020-07-23 22:33:12]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 22:33:12]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 22:33:12]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 22:33:12]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 22:33:12]	[INFO]	Splits are being validated 
+[2020-07-23 22:33:12]	[DEBUG]	Data {
+    "CustomerMobile": "0803334030",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 14850,
+    "OrderNumber": "TSSOLO902100",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-23 22:32:49",
+    "ReservationId": "A0000400000003",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-23 22:33:16]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A0000400000003"} 
+[2020-07-23 22:33:17]	[DEBUG]	Row ID received: A0000400000003 
+Finished at 2020-07-23 22:33:17
+Logs for /widget/reservation/
+[2020-07-23 22:37:10]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 22:37:10]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 22:37:10]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 22:37:10]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 22:37:10]	[INFO]	Splits are being validated 
+[2020-07-23 22:37:10]	[DEBUG]	Data {
+    "CustomerMobile": "0803334030",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 14950,
+    "OrderNumber": "TSSOLO902101",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-23 22:36:49",
+    "ReservationId": "A0000400000004",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-23 22:37:13]	[INFO]	Service returned the following:  {"ResponseCode":"01","ResponseDescription":"Object reference not set to an instance of an object.","ReservationId":null} 
+Finished at 2020-07-23 22:37:13
+Logs for /widget/reservation/
+[2020-07-23 22:51:20]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 22:51:20]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 22:51:20]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 22:51:20]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 22:51:20]	[INFO]	Splits are being validated 
+[2020-07-23 22:51:20]	[DEBUG]	Data {
+    "CustomerMobile": "0803334030",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033342",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 1950,
+    "OrderNumber": "TSSOLO902103",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-23 22:50:49",
+    "ReservationId": "A0000400000005",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-23 22:51:20]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Order amount cannot be less than: 10000.00","ReservationId":null} 
+Finished at 2020-07-23 22:51:20
+Logs for /widget/reservation/
+[2020-07-23 22:59:24]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 22:59:24]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 22:59:24]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 22:59:24]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 22:59:24]	[INFO]	Splits are being validated 
+[2020-07-23 22:59:24]	[DEBUG]	Data {
+    "CustomerMobile": "08033340305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 11950,
+    "OrderNumber": "TSSOLO902106",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-23 22:59:49",
+    "ReservationId": "A0000400000005",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-23 22:59:28]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A0000400000005"} 
+[2020-07-23 22:59:29]	[DEBUG]	Row ID received: A0000400000005 
+Finished at 2020-07-23 22:59:29
+Logs for /widget/pay/?rid=A0000400000005
+[2020-07-23 23:00:42]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":[],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-23 23:00:43
+Logs for /widget/gateway/test-payment-success/?rid=A0000400000005
+[2020-07-23 23:01:33]	[DEBUG]	Row ID received: 406 
+Finished at 2020-07-23 23:01:33
+Logs for /widget/pay/tx-success/?ref=CVRS15955416938928&id=406
+[2020-07-23 23:02:45]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 23:02:45]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 23:02:45]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 23:02:45]	[DEBUG]	Data {
+    "ReservationId": "A0000400000005",
+    "CustomerAccountNo": "0129831873",
+    "CustomerCBNCode": "011",
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-23 23:02:45",
+    "FundSecured": "00"
+} 
+[2020-07-23 23:02:46]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Successfully added new source"} 
+Finished at 2020-07-23 23:02:46
+Logs for /widget/reservation/
+[2020-07-23 23:18:59]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 23:18:59]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-23 23:18:59]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 23:18:59]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-23 23:18:59]	[INFO]	Splits are being validated 
+[2020-07-23 23:18:59]	[DEBUG]	Data {
+    "CustomerMobile": "08033340305",
+    "DeliveryDuration": 2,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 11500,
+    "OrderNumber": "TSSOLO902110",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-23 23:18:49",
+    "ReservationId": "A0000400000006",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-23 23:18:59]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A0000400000006"} 
+[2020-07-23 23:18:59]	[DEBUG]	Row ID received: A0000400000006 
+Finished at 2020-07-23 23:18:59
+Logs for /widget/pay/?rid=A0000400000006
+[2020-07-24 01:07:49]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-24 01:07:49
+Logs for /widget/gateway/test-payment-failed/?rid=A0000400000006
+[2020-07-24 01:08:32]	[DEBUG]	Row ID received: 407 
+Finished at 2020-07-24 01:08:32
+Logs for /widget/pay/tx-failed/?ref=CVRS15955493127815&id=407
+[2020-07-24 01:08:33]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-24 01:08:33",
+    "FundSecured": "G3",
+    "PayRefBank": "011",
+    "ReservationId": "A0000400000006"
+} 
+[2020-07-24 01:08:34]	[INFO]	Service returned the following:  {"ResponseCode":"03","ResponseDescription":"Request received but no successful update for secured fund status"} 
+[2020-07-24 01:08:34]	[ERROR]	Could not get secure update Request received but no successful update for secured fund status 
+Finished at 2020-07-24 01:08:34
+Logs for /widget/reservation/
+[2020-07-24 01:10:23]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-24 01:10:23]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-24 01:10:23]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-24 01:10:23]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-24 01:10:23]	[INFO]	Splits are being validated 
+[2020-07-24 01:10:23]	[DEBUG]	Data {
+    "CustomerMobile": "08033340305",
+    "DeliveryDuration": 10,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 15000,
+    "OrderNumber": "TSSOLO902117",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-24 01:09:49",
+    "ReservationId": "A0000400000007",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-24 01:10:24]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A0000400000007"} 
+[2020-07-24 01:10:24]	[DEBUG]	Row ID received: A0000400000007 
+Finished at 2020-07-24 01:10:24
+Logs for /widget/reservation/
+[2020-07-26 22:31:13]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-26 22:31:13]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-26 22:31:13]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-26 22:31:13]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-26 22:31:13]	[INFO]	Splits are being validated 
+[2020-07-26 22:31:13]	[DEBUG]	Data {
+    "CustomerMobile": "080333403",
+    "DeliveryDuration": 2,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 12500,
+    "OrderNumber": "TSSOLO902120",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-26 22:30:49",
+    "ReservationId": "A0000400000008",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-26 22:31:45]	[INFO]	Service returned the following:  {"ResponseCode":"01","ResponseDescription":"Object reference not set to an instance of an object.","ReservationId":null} 
+Finished at 2020-07-26 22:31:45
+Logs for /widget/reservation/
+[2020-07-26 22:32:03]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-26 22:32:03]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-26 22:32:03]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-26 22:32:03]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-26 22:32:03]	[INFO]	Splits are being validated 
+[2020-07-26 22:32:03]	[DEBUG]	Data {
+    "CustomerMobile": "080333403",
+    "DeliveryDuration": 2,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 12500,
+    "OrderNumber": "TSSOLO902120",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-26 22:30:49",
+    "ReservationId": "A0000400000008",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-26 22:32:03]	[INFO]	Service returned the following:  {"ResponseCode":"01","ResponseDescription":"Object reference not set to an instance of an object.","ReservationId":null} 
+Finished at 2020-07-26 22:32:03
+Logs for /widget/reservation/
+[2020-07-26 22:57:38]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-26 22:57:38]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-26 22:57:38]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-26 22:57:38]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-26 22:57:38]	[INFO]	Splits are being validated 
+[2020-07-26 22:57:38]	[DEBUG]	Data {
+    "CustomerMobile": "08033340305",
+    "DeliveryDuration": 2,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 12500,
+    "OrderNumber": "TSSOLO902120",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-26 22:57:49",
+    "ReservationId": "A0000400000008",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-26 22:57:42]	[INFO]	Service returned the following:  {"ResponseCode":"01","ResponseDescription":"Object reference not set to an instance of an object.","ReservationId":null} 
+Finished at 2020-07-26 22:57:42
+Logs for /widget/reservation/
+[2020-07-26 23:12:46]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-26 23:12:46]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-26 23:12:46]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-26 23:12:46]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-26 23:12:46]	[INFO]	Splits are being validated 
+[2020-07-26 23:12:46]	[DEBUG]	Data {
+    "CustomerMobile": "08033340305",
+    "DeliveryDuration": 2,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 12500,
+    "OrderNumber": "TSSOLO902120",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-26 23:12:49",
+    "ReservationId": "A0000400000008",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-26 23:12:47]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A0000400000008"} 
+[2020-07-26 23:12:47]	[DEBUG]	Row ID received: A0000400000008 
+Finished at 2020-07-26 23:12:47
+Logs for /widget/pay/?rid=A0000400000008
+[2020-07-26 23:49:31]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-26 23:49:31
+Logs for /widget/gateway/test-payment-failed/?rid=A0000400000008
+[2020-07-26 23:49:49]	[DEBUG]	Row ID received: 408 
+Finished at 2020-07-26 23:49:49
+Logs for /widget/pay/tx-failed/?ref=CVRS15958037897313&id=408
+[2020-07-26 23:49:49]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-26 23:49:49",
+    "FundSecured": "G3",
+    "PayRefBank": "011",
+    "ReservationId": "A0000400000008"
+} 
+[2020-07-26 23:49:50]	[INFO]	Service returned the following:  {"ResponseCode":"03","ResponseDescription":"Request received but no successful update for secured fund status"} 
+[2020-07-26 23:49:50]	[ERROR]	Could not get secure update Request received but no successful update for secured fund status 
+Finished at 2020-07-26 23:49:50
+Logs for /widget/reservation/
+[2020-07-27 00:06:47]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 00:06:47]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 00:06:47]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 00:06:47]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 00:06:47]	[INFO]	Splits are being validated 
+[2020-07-27 00:06:47]	[DEBUG]	Data {
+    "CustomerMobile": "08033340305",
+    "DeliveryDuration": 2,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 15650,
+    "OrderNumber": "TSSOLO902120",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-27 00:06:49",
+    "ReservationId": "A0000400000010",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "CustomerLink": null,
+    "ReturnUrl": ""
+} 
+[2020-07-27 00:06:51]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A0000400000010"} 
+[2020-07-27 00:06:51]	[DEBUG]	Row ID received: A0000400000010 
+Finished at 2020-07-27 00:06:51
+Logs for /widget/reservation/
+[2020-07-27 00:18:48]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 00:18:48]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 00:18:48]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 00:18:48]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 00:18:48]	[INFO]	Splits are being validated 
+[2020-07-27 00:18:48]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 2,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 15650,
+    "OrderNumber": "TSSOLO902120",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-27 00:06:49",
+    "ReservationId": "A0000400000010",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 00:18:48]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Reservation ID already exists A0000400000010","ReservationId":null} 
+Finished at 2020-07-27 00:18:48
+Logs for /widget/reservation/
+[2020-07-27 00:19:33]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 00:19:33]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 00:19:33]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 00:19:33]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 00:19:33]	[INFO]	Splits are being validated 
+[2020-07-27 00:19:33]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 2,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 13650,
+    "OrderNumber": "TSSOLO902125",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-27 00:19:49",
+    "ReservationId": "A0000400000011",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 00:19:34]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A0000400000011"} 
+[2020-07-27 00:19:34]	[DEBUG]	Row ID received: A0000400000011 
+Finished at 2020-07-27 00:19:34
+Logs for /widget/pay/?rid=A0000400000011
+[2020-07-27 00:38:32]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 00:38:32
+Logs for /widget/gateway/test-payment-success/?rid=A0000400000011
+[2020-07-27 00:39:26]	[DEBUG]	Row ID received: 409 
+Finished at 2020-07-27 00:39:26
+Logs for /widget/pay/tx-success/?ref=CVRS15958067663414&id=409
+[2020-07-27 00:39:27]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 00:39:27",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A0000400000011"
+} 
+[2020-07-27 00:39:27]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 00:39:27
+Logs for /widget/reservation/
+[2020-07-27 13:39:19]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 13:39:19]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 13:39:19]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 13:39:19]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 13:39:19]	[INFO]	Splits are being validated 
+[2020-07-27 13:39:19]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 8,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN01",
+    "OrderAmount": 6500,
+    "OrderNumber": "FREEBIE00001",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-27 13:37:49",
+    "ReservationId": "A00003000000021",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 13:39:22]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A00003000000021"} 
+[2020-07-27 13:39:23]	[DEBUG]	Row ID received: A00003000000021 
+Finished at 2020-07-27 13:39:23
+Logs for /widget/pay/?rid=A00003000000021
+[2020-07-27 13:40:11]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 13:40:11
+Logs for /widget/gateway/test-payment-success/?rid=A00003000000021
+[2020-07-27 13:41:02]	[DEBUG]	Row ID received: 410 
+Finished at 2020-07-27 13:41:02
+Logs for /widget/pay/tx-success/?ref=CVRS15958536625614&id=410
+[2020-07-27 13:41:02]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 13:41:02",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A00003000000021"
+} 
+[2020-07-27 13:41:03]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 13:41:03
+Logs for /widget/reservation/
+[2020-07-27 13:58:08]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 13:58:08]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 13:58:08]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 13:58:08]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 13:58:08]	[INFO]	Splits are being validated 
+[2020-07-27 13:58:08]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN02",
+    "OrderAmount": 9500,
+    "OrderNumber": "FREEBIE00002",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-27 13:57:49",
+    "ReservationId": "A00003000000023",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 13:58:08]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A00003000000023"} 
+[2020-07-27 13:58:08]	[DEBUG]	Row ID received: A00003000000023 
+Finished at 2020-07-27 13:58:08
+Logs for /widget/pay/?rid=A00003000000023
+[2020-07-27 13:59:23]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 13:59:23
+Logs for /widget/gateway/test-payment-success/?rid=A00003000000023
+[2020-07-27 14:00:08]	[DEBUG]	Row ID received: 411 
+Finished at 2020-07-27 14:00:08
+Logs for /widget/pay/tx-success/?ref=CVRS15958548088842&id=411
+[2020-07-27 14:00:09]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 14:00:09",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A00003000000023"
+} 
+[2020-07-27 14:00:09]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 14:00:09
+Logs for /widget/reservation/
+[2020-07-27 14:06:26]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:06:26]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:06:26]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:06:26]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:06:26]	[INFO]	Splits are being validated 
+[2020-07-27 14:06:26]	[DEBUG]	Data {
+    "CustomerLink": "0803334035",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DELLYMAN09",
+    "OrderAmount": 9500,
+    "OrderNumber": "FREEBIE00002",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-27 14:06:49",
+    "ReservationId": "A00003000000025",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 14:06:26]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A00003000000025"} 
+[2020-07-27 14:06:26]	[DEBUG]	Row ID received: A00003000000025 
+Finished at 2020-07-27 14:06:26
+Logs for /widget/pay/?rid=A00003000000025
+[2020-07-27 14:08:40]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 14:08:40
+Logs for /widget/gateway/test-payment-failed/?rid=A00003000000025
+[2020-07-27 14:08:47]	[DEBUG]	Row ID received: 412 
+Finished at 2020-07-27 14:08:47
+Logs for /widget/pay/tx-failed/?ref=CVRS15958553276536&id=412
+[2020-07-27 14:08:48]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 14:08:48",
+    "FundSecured": "G3",
+    "PayRefBank": "011",
+    "ReservationId": "A00003000000025"
+} 
+[2020-07-27 14:08:48]	[INFO]	Service returned the following:  {"ResponseCode":"03","ResponseDescription":"Request received but no successful update for secured fund status"} 
+[2020-07-27 14:08:48]	[ERROR]	Could not get secure update Request received but no successful update for secured fund status 
+Finished at 2020-07-27 14:08:48
+Logs for /widget/reservation/
+[2020-07-27 14:12:41]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:12:41]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:12:41]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:12:41]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:12:41]	[INFO]	Splits are being validated 
+[2020-07-27 14:12:41]	[DEBUG]	Data {
+    "CustomerLink": "0803334035",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "TNT",
+    "OrderAmount": 1500,
+    "OrderNumber": "FREEBIE00002",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-27 14:12:49",
+    "ReservationId": "A00003000000026",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 14:12:45]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Customer mobile invalid prefix start with 0","ReservationId":null} 
+Finished at 2020-07-27 14:12:45
+Logs for /widget/reservation/
+[2020-07-27 14:15:02]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:15:02]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:15:02]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:15:02]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:15:02]	[INFO]	Splits are being validated 
+[2020-07-27 14:15:02]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 0,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "TNT",
+    "OrderAmount": 4500,
+    "OrderNumber": "FREEBIE00003",
+    "RefundDelivery": 0,
+    "ReservationDate": "2020-07-27 14:14:49",
+    "ReservationId": "A00003000000026",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 14:15:02]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A00003000000026"} 
+[2020-07-27 14:15:02]	[DEBUG]	Row ID received: A00003000000026 
+Finished at 2020-07-27 14:15:02
+Logs for /widget/pay/?rid=A00003000000026
+[2020-07-27 14:15:42]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 14:15:42
+Logs for /widget/gateway/test-payment-success/?rid=A00003000000026
+[2020-07-27 14:16:23]	[DEBUG]	Row ID received: 413 
+Finished at 2020-07-27 14:16:23
+Logs for /widget/pay/tx-success/?ref=CVRS15958557835576&id=413
+[2020-07-27 14:16:24]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 14:16:24",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A00003000000026"
+} 
+[2020-07-27 14:16:24]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 14:16:24
+Logs for /widget/reservation/
+[2020-07-27 14:27:11]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:27:11]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:27:11]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:27:11]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:27:11]	[INFO]	Splits are being validated 
+[2020-07-27 14:27:11]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "Sendbox",
+    "OrderAmount": 12000,
+    "OrderNumber": "RECOUP00004",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-27 14:26:49",
+    "ReservationId": "A00002000000026",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0961874398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 14:27:12]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A00002000000026"} 
+[2020-07-27 14:27:12]	[DEBUG]	Row ID received: A00002000000026 
+Finished at 2020-07-27 14:27:12
+Logs for /widget/pay/?rid=A00002000000026
+[2020-07-27 14:27:50]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 14:27:50
+Logs for /widget/gateway/test-payment-success/?rid=A00002000000026
+[2020-07-27 14:28:32]	[DEBUG]	Row ID received: 414 
+Finished at 2020-07-27 14:28:32
+Logs for /widget/pay/tx-success/?ref=CVRS15958565116870&id=414
+[2020-07-27 14:28:32]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 14:28:32",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A00002000000026"
+} 
+[2020-07-27 14:28:34]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 14:28:34
+Logs for /widget/reservation/
+[2020-07-27 14:36:35]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:36:35]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:36:35]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:36:35]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:36:35]	[INFO]	Splits are being validated 
+[2020-07-27 14:36:35]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "GIG Logistics",
+    "OrderAmount": 12000,
+    "OrderNumber": "RECOUP00005",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-27 14:35:49",
+    "ReservationId": "A00002000000028",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "2981874398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 14:36:35]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A00002000000028"} 
+[2020-07-27 14:36:35]	[DEBUG]	Row ID received: A00002000000028 
+Finished at 2020-07-27 14:36:35
+Logs for /widget/pay/?rid=A00002000000028
+[2020-07-27 14:37:15]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 14:37:15
+Logs for /widget/gateway/test-payment-success/?rid=A00002000000028
+[2020-07-27 14:37:58]	[DEBUG]	Row ID received: 415 
+Finished at 2020-07-27 14:37:58
+Logs for /widget/pay/tx-success/?ref=CVRS15958570789440&id=415
+[2020-07-27 14:37:59]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 14:37:59",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A00002000000028"
+} 
+[2020-07-27 14:37:59]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 14:37:59
+Logs for /widget/reservation/
+[2020-07-27 14:40:33]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:40:33]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:40:33]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:40:33]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:40:33]	[INFO]	Splits are being validated 
+[2020-07-27 14:40:33]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 1,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "KMart-DropOff",
+    "OrderAmount": 10000,
+    "OrderNumber": "RECOUP00006",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-27 14:40:49",
+    "ReservationId": "A00002000000029",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "2981874398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 14:40:33]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A00002000000029"} 
+[2020-07-27 14:40:34]	[DEBUG]	Row ID received: A00002000000029 
+Finished at 2020-07-27 14:40:34
+Logs for /widget/pay/?rid=A00002000000029
+[2020-07-27 14:41:18]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 14:41:18
+Logs for /widget/gateway/test-payment-success/?rid=A00002000000029
+[2020-07-27 14:41:56]	[DEBUG]	Row ID received: 416 
+Finished at 2020-07-27 14:41:57
+Logs for /widget/pay/tx-success/?ref=CVRS15958573169734&id=416
+[2020-07-27 14:41:57]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 14:41:57",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A00002000000029"
+} 
+[2020-07-27 14:41:58]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 14:41:58
+Logs for /widget/reservation/
+[2020-07-27 14:43:40]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:43:40]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:43:40]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:43:40]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:43:40]	[INFO]	Splits are being validated 
+[2020-07-27 14:43:40]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 4,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "SendBox",
+    "OrderAmount": 10000,
+    "OrderNumber": "RECOUP00010",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-27 14:42:49",
+    "ReservationId": "A00002000000032",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "2981874398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 14:43:40]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A00002000000032"} 
+[2020-07-27 14:43:40]	[DEBUG]	Row ID received: A00002000000032 
+Finished at 2020-07-27 14:43:40
+Logs for /widget/pay/?rid=A00002000000032
+[2020-07-27 14:44:15]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 14:44:15
+Logs for /widget/gateway/test-payment-success/?rid=A00002000000032
+[2020-07-27 14:44:54]	[DEBUG]	Row ID received: 417 
+Finished at 2020-07-27 14:44:54
+Logs for /widget/pay/tx-success/?ref=CVRS15958574947349&id=417
+[2020-07-27 14:44:55]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 14:44:55",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A00002000000032"
+} 
+[2020-07-27 14:44:55]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 14:44:55
+Logs for /widget/reservation/
+[2020-07-27 14:51:53]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:51:53]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 14:51:53]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:51:53]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 14:51:53]	[INFO]	Splits are being validated 
+[2020-07-27 14:51:53]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 4,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DeliveryMart",
+    "OrderAmount": 6000,
+    "OrderNumber": "RECOUP00011",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-27 14:51:49",
+    "ReservationId": "A00002000000033",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "2981000398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 14:51:53]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A00002000000033"} 
+[2020-07-27 14:51:53]	[DEBUG]	Row ID received: A00002000000033 
+Finished at 2020-07-27 14:51:53
+Logs for /widget/pay/?rid=A00002000000033
+[2020-07-27 14:52:33]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 14:52:33
+Logs for /widget/gateway/test-payment-success/?rid=A00002000000033
+[2020-07-27 14:53:14]	[DEBUG]	Row ID received: 418 
+Finished at 2020-07-27 14:53:15
+Logs for /widget/pay/tx-success/?ref=CVRS15958579949389&id=418
+[2020-07-27 14:53:15]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 14:53:15",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A00002000000033"
+} 
+[2020-07-27 14:53:15]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 14:53:15
+Logs for /widget/reservation/
+[2020-07-27 23:07:14]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:07:14]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:07:14]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:07:14]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:07:14]	[INFO]	Splits are being validated 
+[2020-07-27 23:07:14]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 2,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "DeliveryMeme",
+    "OrderAmount": 18000,
+    "OrderNumber": "RECOUP00013",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-27 23:06:49",
+    "ReservationId": "A00002000000035",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "2981000398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 23:07:15]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A00002000000035"} 
+[2020-07-27 23:07:15]	[DEBUG]	Row ID received: A00002000000035 
+Finished at 2020-07-27 23:07:15
+Logs for /widget/pay/?rid=A00002000000035
+[2020-07-27 23:08:01]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 23:08:01
+Logs for /widget/gateway/test-payment-success/?rid=A00002000000035
+[2020-07-27 23:08:43]	[DEBUG]	Row ID received: 419 
+Finished at 2020-07-27 23:08:43
+Logs for /widget/pay/tx-success/?ref=CVRS15958877236213&id=419
+[2020-07-27 23:08:43]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 23:08:43",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A00002000000035"
+} 
+[2020-07-27 23:08:44]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 23:08:44
+Logs for /widget/reservation/
+[2020-07-27 23:13:27]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:13:27]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:13:27]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:13:27]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:13:27]	[INFO]	Splits are being validated 
+[2020-07-27 23:13:27]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 2,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "GIGIBhal",
+    "OrderAmount": 3500,
+    "OrderNumber": "RECOUP00019",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-27 23:12:49",
+    "ReservationId": "A00002000000037",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "2981612398",
+            "CbnCode": "070",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 23:13:27]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A00002000000037"} 
+[2020-07-27 23:13:27]	[DEBUG]	Row ID received: A00002000000037 
+Finished at 2020-07-27 23:13:27
+Logs for /widget/pay/?rid=A00002000000037
+[2020-07-27 23:14:03]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 23:14:03
+Logs for /widget/gateway/test-payment-success/?rid=A00002000000037
+[2020-07-27 23:14:44]	[DEBUG]	Row ID received: 420 
+Finished at 2020-07-27 23:14:44
+Logs for /widget/pay/tx-success/?ref=CVRS15958880845442&id=420
+[2020-07-27 23:14:44]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 23:14:44",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A00002000000037"
+} 
+[2020-07-27 23:14:45]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 23:14:45
+Logs for /widget/reservation/
+[2020-07-27 23:16:54]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:16:54]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:16:54]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:16:54]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:16:54]	[INFO]	Splits are being validated 
+[2020-07-27 23:16:54]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 2,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "Gokada",
+    "OrderAmount": 12500,
+    "OrderNumber": "RECOUP00021",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-27 23:16:49",
+    "ReservationId": "A00002000000039",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "2981612398",
+            "CbnCode": "050",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 23:16:55]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A00002000000039"} 
+[2020-07-27 23:16:55]	[DEBUG]	Row ID received: A00002000000039 
+Finished at 2020-07-27 23:16:55
+Logs for /widget/pay/?rid=A00002000000039
+[2020-07-27 23:17:27]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 23:17:27
+Logs for /widget/gateway/test-payment-success/?rid=A00002000000039
+[2020-07-27 23:18:07]	[DEBUG]	Row ID received: 421 
+Finished at 2020-07-27 23:18:07
+Logs for /widget/pay/tx-success/?ref=CVRS15958882867792&id=421
+[2020-07-27 23:18:07]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 23:18:07",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A00002000000039"
+} 
+[2020-07-27 23:18:08]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 23:18:08
+Logs for /widget/reservation/
+[2020-07-27 23:19:12]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:19:12]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:19:12]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:19:12]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:19:12]	[INFO]	Splits are being validated 
+[2020-07-27 23:19:12]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 6,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "Max.NG",
+    "OrderAmount": 17500,
+    "OrderNumber": "RECOUP00023",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-27 23:16:49",
+    "ReservationId": "A00002000000041",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0081612398",
+            "CbnCode": "044",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 23:19:13]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A00002000000041"} 
+[2020-07-27 23:19:13]	[DEBUG]	Row ID received: A00002000000041 
+Finished at 2020-07-27 23:19:13
+Logs for /widget/pay/?rid=A00002000000041
+[2020-07-27 23:19:45]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 23:19:45
+Logs for /widget/gateway/test-payment-success/?rid=A00002000000041
+[2020-07-27 23:20:25]	[DEBUG]	Row ID received: 422 
+Finished at 2020-07-27 23:20:25
+Logs for /widget/pay/tx-success/?ref=CVRS15958884256710&id=422
+[2020-07-27 23:20:25]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 23:20:25",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A00002000000041"
+} 
+[2020-07-27 23:20:26]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 23:20:27
+Logs for /widget/reservation/
+[2020-07-27 23:26:07]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:26:07]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:26:07]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:26:07]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:26:07]	[INFO]	Splits are being validated 
+[2020-07-27 23:26:07]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 21,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "One More",
+    "OrderAmount": 11500,
+    "OrderNumber": "RECOUP00023",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-27 23:25:49",
+    "ReservationId": "A00002000000042",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1081612398",
+            "CbnCode": "033",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 23:26:08]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A00002000000042"} 
+[2020-07-27 23:26:08]	[DEBUG]	Row ID received: A00002000000042 
+Finished at 2020-07-27 23:26:08
+Logs for /widget/pay/?rid=A00002000000042
+[2020-07-27 23:26:37]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 23:26:37
+Logs for /widget/gateway/test-payment-success/?rid=A00002000000042
+[2020-07-27 23:27:34]	[DEBUG]	Row ID received: 423 
+Finished at 2020-07-27 23:27:34
+Logs for /widget/pay/tx-success/?ref=CVRS15958888542043&id=423
+[2020-07-27 23:27:35]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 23:27:35",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A00002000000042"
+} 
+[2020-07-27 23:27:35]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 23:27:35
+Logs for /widget/reservation/
+[2020-07-27 23:31:27]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:31:27]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:31:27]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:31:27]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:31:27]	[INFO]	Splits are being validated 
+[2020-07-27 23:31:27]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 8,
+    "DeliveryFee": 85,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "NIPOST",
+    "OrderAmount": 25000,
+    "OrderNumber": "STREETZ00123",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-27 23:30:49",
+    "ReservationId": "A00001000000045",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1081612398",
+            "CbnCode": "033",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 23:31:28]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Reservation ID already exists A00001000000045","ReservationId":null} 
+Finished at 2020-07-27 23:31:28
+Logs for /widget/reservation/
+[2020-07-27 23:31:43]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:31:43]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:31:43]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:31:43]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:31:43]	[INFO]	Splits are being validated 
+[2020-07-27 23:31:43]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 8,
+    "DeliveryFee": 85,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "NIPOST",
+    "OrderAmount": 25000,
+    "OrderNumber": "STREETZ00123",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-27 23:30:49",
+    "ReservationId": "A000010000120045",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1081612398",
+            "CbnCode": "033",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 23:31:43]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000010000120045"} 
+[2020-07-27 23:31:43]	[DEBUG]	Row ID received: A000010000120045 
+Finished at 2020-07-27 23:31:43
+Logs for /widget/pay/?rid=A000010000120045
+[2020-07-27 23:32:14]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 23:32:14
+Logs for /widget/gateway/test-payment-success/?rid=A000010000120045
+[2020-07-27 23:32:58]	[DEBUG]	Row ID received: 424 
+Finished at 2020-07-27 23:32:58
+Logs for /widget/pay/tx-success/?ref=CVRS15958891788959&id=424
+[2020-07-27 23:32:59]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 23:32:59",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A000010000120045"
+} 
+[2020-07-27 23:32:59]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 23:32:59
+Logs for /widget/reservation/
+[2020-07-27 23:35:38]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:35:38]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-27 23:35:38]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:35:38]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-27 23:35:38]	[INFO]	Splits are being validated 
+[2020-07-27 23:35:38]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 85,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "NIPOST",
+    "OrderAmount": 15000,
+    "OrderNumber": "STREETZ00129",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-27 23:35:49",
+    "ReservationId": "A000010000120047",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1081612398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-27 23:35:38]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000010000120047"} 
+[2020-07-27 23:35:38]	[DEBUG]	Row ID received: A000010000120047 
+Finished at 2020-07-27 23:35:38
+Logs for /widget/pay/?rid=A000010000120047
+[2020-07-27 23:36:13]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-27 23:36:13
+Logs for /widget/gateway/test-payment-success/?rid=A000010000120047
+[2020-07-27 23:36:54]	[DEBUG]	Row ID received: 425 
+Finished at 2020-07-27 23:36:54
+Logs for /widget/pay/tx-success/?ref=CVRS15958894147285&id=425
+[2020-07-27 23:36:55]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-27 23:36:55",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A000010000120047"
+} 
+[2020-07-27 23:36:55]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-27 23:36:55
+Logs for /widget/reservation/
+[2020-07-28 00:25:50]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-28 00:25:50]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-28 00:25:50]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-28 00:25:50]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-28 00:25:50]	[WARN]	Validator failed : [ models\forms\validationrules\Date ] for  ReservationDate reason: The specified reservation date has passed. 
+Finished at 2020-07-28 00:25:50
+Logs for /widget/reservation/
+[2020-07-28 00:26:12]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-28 00:26:12]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-28 00:26:12]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-28 00:26:12]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-28 00:26:12]	[INFO]	Splits are being validated 
+[2020-07-28 00:26:12]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "NIPOST",
+    "OrderAmount": 15950,
+    "OrderNumber": "RECOUP15000129",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-28 00:26:49",
+    "ReservationId": "A000020000120049",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1081612398",
+            "CbnCode": "058",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-28 00:26:16]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000020000120049"} 
+[2020-07-28 00:26:16]	[DEBUG]	Row ID received: A000020000120049 
+Finished at 2020-07-28 00:26:16
+Logs for /widget/pay/?rid=A000020000120049
+[2020-07-28 00:27:03]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-28 00:27:03
+Logs for /widget/gateway/test-payment-success/?rid=A000020000120049
+[2020-07-28 00:27:42]	[DEBUG]	Row ID received: 426 
+Finished at 2020-07-28 00:27:42
+Logs for /widget/pay/tx-success/?ref=CVRS15958924627587&id=426
+[2020-07-28 00:27:43]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-28 00:27:43",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A000020000120049"
+} 
+[2020-07-28 00:27:43]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-28 00:27:43
+Logs for /widget/reservation/
+[2020-07-28 00:29:45]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-28 00:29:45]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-28 00:29:45]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-28 00:29:45]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-28 00:29:45]	[INFO]	Splits are being validated 
+[2020-07-28 00:29:45]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 85,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "NIPOST",
+    "OrderAmount": 12843.95,
+    "OrderNumber": "RECOUP15000129",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-28 00:26:49",
+    "ReservationId": "A000010000120050",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1089912398",
+            "CbnCode": "057",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-28 00:29:46]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000010000120050"} 
+[2020-07-28 00:29:46]	[DEBUG]	Row ID received: A000010000120050 
+Finished at 2020-07-28 00:29:46
+Logs for /widget/pay/?rid=A000010000120050
+[2020-07-28 00:30:23]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-28 00:30:23
+Logs for /widget/gateway/test-payment-success/?rid=A000010000120050
+[2020-07-28 00:31:02]	[DEBUG]	Row ID received: 427 
+Finished at 2020-07-28 00:31:02
+Logs for /widget/pay/tx-success/?ref=CVRS15958926623633&id=427
+[2020-07-28 00:31:02]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-28 00:31:02",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A000010000120050"
+} 
+[2020-07-28 00:31:03]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-28 00:31:03
+Logs for /widget/reservation/
+[2020-07-28 00:36:36]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-28 00:36:36]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-28 00:36:36]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-28 00:36:36]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-28 00:36:36]	[INFO]	Splits are being validated 
+[2020-07-28 00:36:36]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 85,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08033345302",
+    "DispatchName": "NIPOST",
+    "OrderAmount": 12500,
+    "OrderNumber": "STREETZ15000156",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-07-28 00:26:49",
+    "ReservationId": "A000010000120051",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "0089912398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-07-28 00:36:36]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000010000120051"} 
+[2020-07-28 00:36:37]	[DEBUG]	Row ID received: A000010000120051 
+Finished at 2020-07-28 00:36:37
+Logs for /widget/pay/?rid=A000010000120051
+[2020-07-28 00:42:52]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-07-28 00:42:52
+Logs for /widget/gateway/test-payment-success/?rid=A000010000120051
+[2020-07-28 00:43:34]	[DEBUG]	Row ID received: 428 
+Finished at 2020-07-28 00:43:34
+Logs for /widget/pay/tx-success/?ref=CVRS15958934149213&id=428
+[2020-07-28 00:43:34]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-07-28 00:43:34",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A000010000120051"
+} 
+[2020-07-28 00:43:35]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-07-28 00:43:35
+Logs for /widget/reservation/
+[2020-07-30 19:45:42]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-30 19:45:42]	[DEBUG]	Processing rules with priority, 0 
+[2020-07-30 19:45:42]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-30 19:45:42]	[DEBUG]	Processing rules with priority, 1 
+[2020-07-30 19:45:42]	[WARN]	Validator failed : [ models\forms\validationrules\Date ] for  ReservationDate reason: The specified reservation date has passed. 
+Finished at 2020-07-30 19:45:42
+Logs for /widget/reservation/
+[2020-08-21 23:07:04]	[DEBUG]	Processing rules with priority, 0 
+[2020-08-21 23:07:04]	[DEBUG]	Processing rules with priority, 0 
+[2020-08-21 23:07:04]	[DEBUG]	Processing rules with priority, 1 
+[2020-08-21 23:07:04]	[DEBUG]	Processing rules with priority, 1 
+[2020-08-21 23:07:04]	[INFO]	Splits are being validated 
+[2020-08-21 23:07:04]	[DEBUG]	Data {
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08012345902",
+    "DispatchName": "NIPOST",
+    "OrderAmount": 12500,
+    "OrderNumber": "RECOUP0015000156",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-08-21 23:07:49",
+    "ReservationId": "A000020000120051",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1089912398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "CustomerLink": null,
+    "ReturnUrl": ""
+} 
+[2020-08-21 23:07:05]	[INFO]	Service returned the following:  {"ResponseCode":"01","ResponseDescription":"Object reference not set to an instance of an object.","ReservationId":null} 
+Finished at 2020-08-21 23:07:05
+Logs for /widget/reservation/
+[2020-08-21 23:15:02]	[DEBUG]	Processing rules with priority, 0 
+[2020-08-21 23:15:02]	[DEBUG]	Processing rules with priority, 0 
+[2020-08-21 23:15:02]	[DEBUG]	Processing rules with priority, 1 
+[2020-08-21 23:15:02]	[DEBUG]	Processing rules with priority, 1 
+[2020-08-21 23:15:02]	[INFO]	Splits are being validated 
+[2020-08-21 23:15:02]	[DEBUG]	Data {
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08012345902",
+    "DispatchName": "NIPOST",
+    "OrderAmount": 12500,
+    "OrderNumber": "RECOUP0015000156",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-08-21 23:07:49",
+    "ReservationId": "A000020000120051",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1089912398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "CustomerLink": null,
+    "ReturnUrl": ""
+} 
+[2020-08-21 23:15:02]	[INFO]	Service returned the following:  {"ResponseCode":"01","ResponseDescription":"Object reference not set to an instance of an object.","ReservationId":null} 
+Finished at 2020-08-21 23:15:02
+Logs for /widget/reservation/
+[2020-08-21 23:30:41]	[DEBUG]	Processing rules with priority, 0 
+[2020-08-21 23:30:41]	[DEBUG]	Processing rules with priority, 0 
+[2020-08-21 23:30:41]	[DEBUG]	Processing rules with priority, 1 
+[2020-08-21 23:30:41]	[DEBUG]	Processing rules with priority, 1 
+[2020-08-21 23:30:41]	[INFO]	Splits are being validated 
+[2020-08-21 23:30:41]	[DEBUG]	Data {
+    "CustomerLink": "0803334030",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08012345902",
+    "DispatchName": "NIPOST",
+    "OrderAmount": 12500,
+    "OrderNumber": "RECOUP0015000156",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-08-21 23:07:49",
+    "ReservationId": "A000020000120051",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1089912398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-08-21 23:30:42]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Customer mobile invalid, prefix start's with 0 and 11 characters max","ReservationId":null} 
+Finished at 2020-08-21 23:30:42
+Logs for /widget/reservation/
+[2020-08-21 23:31:45]	[DEBUG]	Processing rules with priority, 0 
+[2020-08-21 23:31:45]	[DEBUG]	Processing rules with priority, 0 
+[2020-08-21 23:31:45]	[DEBUG]	Processing rules with priority, 1 
+[2020-08-21 23:31:45]	[DEBUG]	Processing rules with priority, 1 
+[2020-08-21 23:31:45]	[INFO]	Splits are being validated 
+[2020-08-21 23:31:45]	[DEBUG]	Data {
+    "CustomerLink": "08033340305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08012345902",
+    "DispatchName": "NIPOST",
+    "OrderAmount": 12500,
+    "OrderNumber": "RECOUP0015000156",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-08-21 23:07:49",
+    "ReservationId": "A000020000120051",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1089912398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-08-21 23:31:46]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000020000120051"} 
+[2020-08-21 23:31:46]	[DEBUG]	Row ID received: A000020000120051 
+Finished at 2020-08-21 23:31:46
+Logs for /widget/pay/?rid=A000020000120051
+[2020-08-21 23:32:49]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-08-21 23:32:49
+Logs for /widget/gateway/test-payment-success/?rid=A000020000120051
+[2020-08-21 23:33:40]	[DEBUG]	Row ID received: 429 
+Finished at 2020-08-21 23:33:40
+Logs for /widget/pay/tx-success/?ref=CVRS15980492208006&id=429
+[2020-08-21 23:33:41]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-08-21 23:33:41",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A000020000120051"
+} 
+[2020-08-21 23:33:41]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-08-21 23:33:41
+Logs for /widget/reservation/
+[2020-08-22 20:20:16]	[DEBUG]	Processing rules with priority, 0 
+[2020-08-22 20:20:16]	[DEBUG]	Processing rules with priority, 0 
+[2020-08-22 20:20:16]	[DEBUG]	Processing rules with priority, 1 
+[2020-08-22 20:20:16]	[DEBUG]	Processing rules with priority, 1 
+[2020-08-22 20:20:16]	[INFO]	Splits are being validated 
+[2020-08-22 20:20:16]	[DEBUG]	Data {
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08012345902",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 8950,
+    "OrderNumber": "RECOUP0001000156",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-08-22 20:20:49",
+    "ReservationId": "A000020000120051",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1089912398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "CustomerLink": null,
+    "ReturnUrl": ""
+} 
+[2020-08-22 20:20:17]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Reservation ID already exists A000020000120051","ReservationId":null} 
+Finished at 2020-08-22 20:20:17
+Logs for /widget/reservation/
+[2020-08-22 20:20:45]	[DEBUG]	Processing rules with priority, 0 
+[2020-08-22 20:20:45]	[DEBUG]	Processing rules with priority, 0 
+[2020-08-22 20:20:45]	[DEBUG]	Processing rules with priority, 1 
+[2020-08-22 20:20:45]	[DEBUG]	Processing rules with priority, 1 
+[2020-08-22 20:20:45]	[INFO]	Splits are being validated 
+[2020-08-22 20:20:45]	[DEBUG]	Data {
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08012345902",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 8950,
+    "OrderNumber": "RECOUP0001000156",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-08-22 20:20:49",
+    "ReservationId": "A000020000120053",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1089912398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "CustomerLink": null,
+    "ReturnUrl": ""
+} 
+[2020-08-22 20:20:46]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000020000120053"} 
+[2020-08-22 20:20:46]	[DEBUG]	Row ID received: A000020000120053 
+Finished at 2020-08-22 20:20:46
+Logs for /widget/pay/?rid=A000020000120053
+[2020-08-22 20:22:07]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-08-22 20:22:07
+Logs for /widget/gateway/test-payment-success/?rid=A000020000120053
+[2020-08-22 20:23:00]	[DEBUG]	Row ID received: 430 
+Finished at 2020-08-22 20:23:00
+Logs for /widget/pay/tx-success/?ref=CVRS15981241809713&id=430
+[2020-08-22 20:23:01]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-08-22 20:23:01",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A000020000120053"
+} 
+[2020-08-22 20:23:02]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-08-22 20:23:02
+Logs for /widget/reservation/
+[2020-08-31 22:27:37]	[DEBUG]	Processing rules with priority, 0 
+[2020-08-31 22:27:38]	[DEBUG]	Processing rules with priority, 0 
+[2020-08-31 22:27:38]	[DEBUG]	Processing rules with priority, 1 
+[2020-08-31 22:27:38]	[DEBUG]	Processing rules with priority, 1 
+[2020-08-31 22:27:38]	[INFO]	Splits are being validated 
+[2020-08-31 22:27:38]	[DEBUG]	Data {
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08012345902",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 1950,
+    "OrderNumber": "RECOUP918200011",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-08-31 22:26:49",
+    "ReservationId": "A000020000120059",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1089912398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "CustomerLink": null,
+    "ReturnUrl": ""
+} 
+[2020-08-31 22:27:41]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000020000120059"} 
+[2020-08-31 22:27:41]	[DEBUG]	Row ID received: A000020000120059 
+Finished at 2020-08-31 22:27:41
+Logs for /widget/pay/?rid=A000020000120059
+[2020-08-31 22:28:52]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["011"],"CustomerFirstName":"Captain","CustomerFlagged":0,"CustomerId":1020,"CustomerLastName":"Marvel","CustomerMiddleName":null} 
+Finished at 2020-08-31 22:28:52
+Logs for /widget/gateway/test-payment-success/?rid=A000020000120059
+[2020-08-31 22:29:35]	[DEBUG]	Row ID received: 431 
+Finished at 2020-08-31 22:29:35
+Logs for /widget/pay/tx-success/?ref=CVRS15989093756529&id=431
+[2020-08-31 22:29:36]	[DEBUG]	Data {
+    "CustomerId": "1020",
+    "FundSecureDate": "2020-08-31 22:29:36",
+    "FundSecured": "00",
+    "PayRefBank": "011",
+    "ReservationId": "A000020000120059"
+} 
+[2020-08-31 22:29:36]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"Secured fund update successful"} 
+Finished at 2020-08-31 22:29:36
+Logs for /widget/reservation
+[2020-09-20 18:22:12]	[DEBUG]	Processing rules with priority, 0 
+[2020-09-20 18:22:12]	[WARN]	Validator failed : [ models\forms\validationrules\Required ] for  DeliveryDuration reason: The specified field is required 
+Finished at 2020-09-20 18:22:12
+Logs for /widget/reservation
+[2020-09-20 18:22:33]	[DEBUG]	Processing rules with priority, 0 
+[2020-09-20 18:22:33]	[WARN]	Validator failed : [ models\forms\validationrules\Required ] for  DeliveryDuration reason: The specified field is required 
+Finished at 2020-09-20 18:22:33
+Logs for /widget/reservation/
+[2020-09-20 18:51:16]	[DEBUG]	Processing rules with priority, 0 
+[2020-09-20 18:51:16]	[WARN]	Validator failed : [ models\forms\validationrules\Required ] for  DeliveryDuration reason: The specified field is required 
+Finished at 2020-09-20 18:51:16
+Logs for /widget/reservation/
+[2020-09-20 18:51:42]	[DEBUG]	Processing rules with priority, 0 
+[2020-09-20 18:51:42]	[WARN]	Validator failed : [ models\forms\validationrules\Required ] for  DeliveryDuration reason: The specified field is required 
+Finished at 2020-09-20 18:51:42
+Logs for /widget/reservation/
+[2020-09-20 19:15:44]	[DEBUG]	Processing rules with priority, 0 
+[2020-09-20 19:15:44]	[WARN]	Validator failed : [ models\forms\validationrules\Required ] for  DeliveryDuration reason: The specified field is required 
+Finished at 2020-09-20 19:15:44
+Logs for /widget/reservation/
+[2020-09-20 19:15:50]	[DEBUG]	Processing rules with priority, 0 
+[2020-09-20 19:15:50]	[WARN]	Validator failed : [ models\forms\validationrules\Required ] for  DeliveryDuration reason: The specified field is required 
+Finished at 2020-09-20 19:15:50
+Logs for /widget/reservation/
+[2020-09-20 19:22:46]	[DEBUG]	Processing rules with priority, 0 
+[2020-09-20 19:22:46]	[WARN]	Validator failed : [ models\forms\validationrules\Required ] for  DeliveryDuration reason: The specified field is required 
+Finished at 2020-09-20 19:22:46
+Logs for /widget/reservation/
+[2020-10-24 19:56:22]	[DEBUG]	Processing rules with priority, 0 
+[2020-10-24 19:56:22]	[DEBUG]	Processing rules with priority, 0 
+[2020-10-24 19:56:22]	[DEBUG]	Processing rules with priority, 1 
+[2020-10-24 19:56:22]	[DEBUG]	Processing rules with priority, 1 
+[2020-10-24 19:56:22]	[INFO]	Splits are being validated 
+[2020-10-24 19:56:22]	[DEBUG]	Data {
+    "CustomerLink": "08033345305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08012345902",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 13500,
+    "OrderNumber": "RECOUP918200011",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-10-24 19:56:49",
+    "ReservationId": "A000020000120099",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1089912398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": ""
+} 
+[2020-10-24 19:56:24]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000020000120099"} 
+[2020-10-24 19:56:24]	[DEBUG]	Row ID received: A000020000120099 
+Finished at 2020-10-24 19:56:24
+Logs for /widget/pay/?rid=A000020000120099
+[2020-10-24 19:57:08]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","CustomerCbnCode":["100"],"CustomerFirstName":"Deacon","CustomerFlagged":0,"CustomerId":11,"CustomerLastName":"Marvelous","CustomerMiddleName":null} 
+Finished at 2020-10-24 19:57:08
+Logs for /widget/gateway/test-payment-failed/?rid=A000020000120099
+[2020-10-24 19:57:30]	[DEBUG]	Row ID received: 432 
+Finished at 2020-10-24 19:57:30
+Logs for /widget/pay/tx-failed/?ref=CVRS16035658509228&id=432
+[2020-10-24 19:57:32]	[DEBUG]	Data {
+    "CustomerId": "11",
+    "FundSecureDate": "2020-10-24 19:57:32",
+    "FundSecured": "G3",
+    "PayRefBank": "100",
+    "ReservationId": "A000020000120099"
+} 
+[2020-10-24 19:57:32]	[INFO]	Service returned the following:  {"ResponseCode":"03","ResponseDescription":"Request received but no successful update for secured fund status"} 
+[2020-10-24 19:57:32]	[ERROR]	Could not get secure update Request received but no successful update for secured fund status 
+Finished at 2020-10-24 19:57:32
+Logs for /widget/reservation/
+[2020-10-24 19:59:37]	[DEBUG]	Processing rules with priority, 0 
+[2020-10-24 19:59:37]	[DEBUG]	Processing rules with priority, 0 
+[2020-10-24 19:59:37]	[DEBUG]	Processing rules with priority, 1 
+[2020-10-24 19:59:37]	[DEBUG]	Processing rules with priority, 1 
+[2020-10-24 19:59:37]	[INFO]	Splits are being validated 
+[2020-10-24 19:59:37]	[DEBUG]	Data {
+    "CustomerLink": "08033345305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08012345902",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 13500,
+    "OrderNumber": "RECOUP918200297",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-10-24 19:59:49",
+    "ReservationId": "A000020000120100",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1089912398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/mangafox.me\/directory\/"
+} 
+[2020-10-24 19:59:38]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000020000120100"} 
+[2020-10-24 19:59:38]	[DEBUG]	Row ID received: A000020000120100 
+Finished at 2020-10-24 19:59:38
+Logs for /widget/reservation/
+[2020-11-04 15:54:28]	[DEBUG]	Processing rules with priority, 0 
+[2020-11-04 15:54:28]	[DEBUG]	Processing rules with priority, 1 
+[2020-11-04 15:54:28]	[WARN]	Validator failed : [ models\forms\validationrules\Date ] for  ReservationDate reason: The specified reservation date has passed. 
+Finished at 2020-11-04 15:54:28
+Logs for /widget/reservation/
+[2020-11-04 15:58:04]	[DEBUG]	Processing rules with priority, 0 
+[2020-11-04 15:58:04]	[DEBUG]	Processing rules with priority, 1 
+[2020-11-04 15:58:04]	[WARN]	Validator failed : [ models\forms\validationrules\Date ] for  ReservationDate reason: The specified reservation date has passed. 
+Finished at 2020-11-04 15:58:04
+Logs for /widget/reservation/
+[2020-11-04 15:58:41]	[DEBUG]	Processing rules with priority, 0 
+[2020-11-04 15:58:41]	[DEBUG]	Processing rules with priority, 1 
+[2020-11-04 15:58:41]	[WARN]	Validator failed : [ models\forms\validationrules\Date ] for  ReservationDate reason: The specified reservation date has passed. 
+Finished at 2020-11-04 15:58:41
+Logs for /widget/reservation/
+[2020-11-04 16:01:09]	[DEBUG]	Processing rules with priority, 0 
+[2020-11-04 16:01:09]	[DEBUG]	Processing rules with priority, 1 
+[2020-11-04 16:01:09]	[WARN]	Validator failed : [ models\forms\validationrules\Date ] for  ReservationDate reason: The specified reservation date has passed. 
+Finished at 2020-11-04 16:01:09
+Logs for /widget/reservation/
+[2020-11-05 11:27:02]	[DEBUG]	Processing rules with priority, 0 
+[2020-11-05 11:27:02]	[DEBUG]	Processing rules with priority, 0 
+[2020-11-05 11:27:02]	[DEBUG]	Processing rules with priority, 1 
+[2020-11-05 11:27:02]	[DEBUG]	Processing rules with priority, 1 
+[2020-11-05 11:27:02]	[WARN]	Validator failed : [ models\forms\validationrules\Date ] for  ReservationDate reason: The specified reservation date has passed. 
+Finished at 2020-11-05 11:27:02
+Logs for /widget/reservation/
+[2020-11-05 11:27:45]	[DEBUG]	Processing rules with priority, 0 
+[2020-11-05 11:27:45]	[DEBUG]	Processing rules with priority, 0 
+[2020-11-05 11:27:45]	[DEBUG]	Processing rules with priority, 1 
+[2020-11-05 11:27:45]	[DEBUG]	Processing rules with priority, 1 
+[2020-11-05 11:27:45]	[INFO]	Splits are being validated 
+[2020-11-05 11:27:45]	[DEBUG]	Data {
+    "CustomerLink": "08033345305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 150,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08012345902",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 13500,
+    "OrderNumber": "RECOUP918200297",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-11-05 11:27:49",
+    "ReservationId": "A000020000120100",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1089912398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/mangafox.me\/directory\/"
+} 
+[2020-11-05 11:27:45]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Reservation ID already exists A000020000120100","ReservationId":null} 
+Finished at 2020-11-05 11:27:45
+Logs for /widget/reservation/
+[2020-11-05 11:28:22]	[DEBUG]	Processing rules with priority, 0 
+[2020-11-05 11:28:22]	[DEBUG]	Processing rules with priority, 0 
+[2020-11-05 11:28:22]	[DEBUG]	Processing rules with priority, 1 
+[2020-11-05 11:28:22]	[DEBUG]	Processing rules with priority, 1 
+[2020-11-05 11:28:22]	[WARN]	Validator failed : [ models\forms\validationrules\FloatType ] for  DeliveryFee reason: Delivery fee must be more than NGN 85.00 
+Finished at 2020-11-05 11:28:22
+Logs for /widget/reservation/
+[2020-11-05 11:29:00]	[DEBUG]	Processing rules with priority, 0 
+[2020-11-05 11:29:00]	[DEBUG]	Processing rules with priority, 0 
+[2020-11-05 11:29:00]	[DEBUG]	Processing rules with priority, 1 
+[2020-11-05 11:29:00]	[DEBUG]	Processing rules with priority, 1 
+[2020-11-05 11:29:00]	[INFO]	Splits are being validated 
+[2020-11-05 11:29:00]	[DEBUG]	Data {
+    "CustomerLink": "08033345305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 100,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08012345902",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 13500,
+    "OrderNumber": "RECOUP918200297",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-11-05 11:27:49",
+    "ReservationId": "A000020000120100",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1089912398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/mangafox.me\/directory\/"
+} 
+[2020-11-05 11:29:01]	[INFO]	Service returned the following:  {"ResponseCode":"09","ResponseDescription":"Error: Reservation ID already exists A000020000120100","ReservationId":null} 
+Finished at 2020-11-05 11:29:01
+Logs for /widget/reservation/
+[2020-11-05 11:29:15]	[DEBUG]	Processing rules with priority, 0 
+[2020-11-05 11:29:15]	[DEBUG]	Processing rules with priority, 0 
+[2020-11-05 11:29:15]	[DEBUG]	Processing rules with priority, 1 
+[2020-11-05 11:29:15]	[DEBUG]	Processing rules with priority, 1 
+[2020-11-05 11:29:15]	[INFO]	Splits are being validated 
+[2020-11-05 11:29:15]	[DEBUG]	Data {
+    "CustomerLink": "08033345305",
+    "DeliveryDuration": 3,
+    "DeliveryFee": 100,
+    "DispatchEmail": "ajtreme@yahoo.com",
+    "DispatchMobile": "08012345902",
+    "DispatchName": "DELLYMAN",
+    "OrderAmount": 13500,
+    "OrderNumber": "RECOUP918200297",
+    "RefundDelivery": 1,
+    "ReservationDate": "2020-11-05 11:27:49",
+    "ReservationId": "A000020000120101",
+    "ReservationRequestSplits": [
+        {
+            "AccountNo": "1089912398",
+            "CbnCode": "011",
+            "SplitPercentage": 100
+        }
+    ],
+    "ReturnUrl": "https:\/\/mangafox.me\/directory\/"
+} 
+[2020-11-05 11:29:15]	[INFO]	Service returned the following:  {"ResponseCode":"00","ResponseDescription":"OK","ReservationId":"A000020000120101"} 
+[2020-11-05 11:29:16]	[DEBUG]	Row ID received: A000020000120101 
+Finished at 2020-11-05 11:29:16

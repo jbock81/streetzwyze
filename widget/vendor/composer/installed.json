@@ -1,0 +1,1200 @@
+[
+    {
+        "name": "henrikbjorn/lurker",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/flint/Lurker.git",
+            "reference": "a020d45b3bc37810aeafe27343c51af8a74c9419"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/flint/Lurker/zipball/a020d45b3bc37810aeafe27343c51af8a74c9419",
+            "reference": "a020d45b3bc37810aeafe27343c51af8a74c9419",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3",
+            "symfony/config": "~2.2",
+            "symfony/event-dispatcher": "~2.2"
+        },
+        "suggest": {
+            "ext-inotify": ">=0.1.6"
+        },
+        "time": "2013-05-24 06:47:29",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Lurker": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Yaroslav Kiliba",
+                "email": "om.dattaya@gmail.com"
+            },
+            {
+                "name": "Konstantin Kudryashov",
+                "email": "ever.zet@gmail.com"
+            },
+            {
+                "name": "Henrik Bjrnskov",
+                "email": "henrik@bjrnskov.dk"
+            }
+        ],
+        "description": "Resource Watcher.",
+        "keywords": [
+            "filesystem",
+            "resource",
+            "watching"
+        ]
+    },
+    {
+        "name": "guzzlehttp/guzzle",
+        "version": "6.1.0",
+        "version_normalized": "6.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle.git",
+            "reference": "66fd14b4d0b8f2389eaf37c5458608c7cb793a81"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/66fd14b4d0b8f2389eaf37c5458608c7cb793a81",
+            "reference": "66fd14b4d0b8f2389eaf37c5458608c7cb793a81",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/promises": "~1.0",
+            "guzzlehttp/psr7": "~1.1",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit/phpunit": "~4.0",
+            "psr/log": "~1.0"
+        },
+        "time": "2015-09-08 17:36:26",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/functions_include.php"
+            ],
+            "psr-4": {
+                "GuzzleHttp\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle is a PHP HTTP client library",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "rest",
+            "web service"
+        ]
+    },
+    {
+        "name": "intelworx/dbvc",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://bitbucket.org/logbon72/dbvc.git",
+            "reference": "74a8e9f205c4eaac0a935adde3f69a26558a162f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://bitbucket.org/logbon72/dbvc/get/74a8e9f205c4eaac0a935adde3f69a26558a162f.zip",
+            "reference": "74a8e9f205c4eaac0a935adde3f69a26558a162f",
+            "shasum": ""
+        },
+        "time": "2015-06-22 08:25:28",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "intelworx\\dbvc\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Joseph T. Orilogbon",
+                "email": "joseph@orilogbon.me"
+            }
+        ],
+        "description": "DBVC: Database Version Control, inspired by http://dbv.vizuina.com/ and FlywayDB for Java."
+    },
+    {
+        "name": "smarty/smarty",
+        "version": "v3.1.27",
+        "version_normalized": "3.1.27.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/smarty-php/smarty.git",
+            "reference": "4537d8aae6c4a26f5439bc3a05d3437d25c2c4d2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/smarty-php/smarty/zipball/4537d8aae6c4a26f5439bc3a05d3437d25c2c4d2",
+            "reference": "4537d8aae6c4a26f5439bc3a05d3437d25c2c4d2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "time": "2015-06-18 00:55:59",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "libs/Smarty.class.php",
+                "libs/SmartyBC.class.php",
+                "libs/sysplugins/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Monte Ohrt",
+                "email": "monte@ohrt.com"
+            },
+            {
+                "name": "Uwe Tews",
+                "email": "uwe.tews@googlemail.com"
+            },
+            {
+                "name": "Rodney Rehm",
+                "email": "rodney.rehm@medialize.de"
+            }
+        ],
+        "description": "Smarty - the compiling PHP template engine",
+        "homepage": "http://www.smarty.net",
+        "keywords": [
+            "templating"
+        ]
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "v5.2.23",
+        "version_normalized": "5.2.23.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "7115df4a6f76281109ebe352900c42403b728bb4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/7115df4a6f76281109ebe352900c42403b728bb4",
+            "reference": "7115df4a6f76281109ebe352900c42403b728bb4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "doctrine/annotations": "1.2.*",
+            "jms/serializer": "0.16.*",
+            "phpdocumentor/phpdocumentor": "2.*",
+            "phpunit/phpunit": "4.8.*",
+            "symfony/debug": "2.8.*",
+            "symfony/filesystem": "2.8.*",
+            "symfony/translation": "2.8.*",
+            "symfony/yaml": "2.8.*",
+            "zendframework/zend-cache": "2.5.1",
+            "zendframework/zend-config": "2.5.1",
+            "zendframework/zend-eventmanager": "2.5.1",
+            "zendframework/zend-filter": "2.5.1",
+            "zendframework/zend-i18n": "2.5.1",
+            "zendframework/zend-json": "2.5.1",
+            "zendframework/zend-math": "2.5.1",
+            "zendframework/zend-serializer": "2.5.*",
+            "zendframework/zend-servicemanager": "2.5.*",
+            "zendframework/zend-stdlib": "2.5.1"
+        },
+        "suggest": {
+            "league/oauth2-google": "Needed for Google XOAUTH2 authentication"
+        },
+        "time": "2017-03-15 19:32:56",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "class.phpmailer.php",
+                "class.phpmaileroauth.php",
+                "class.phpmaileroauthgoogle.php",
+                "class.smtp.php",
+                "class.pop3.php",
+                "extras/EasyPeasyICS.php",
+                "extras/ntlm_sasl_client.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    {
+        "name": "psr/log",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+            "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-10-10 12:19:37",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "symfony/debug",
+        "version": "v3.0.9",
+        "version_normalized": "3.0.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/debug.git",
+            "reference": "697c527acd9ea1b2d3efac34d9806bf255278b0a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/debug/zipball/697c527acd9ea1b2d3efac34d9806bf255278b0a",
+            "reference": "697c527acd9ea1b2d3efac34d9806bf255278b0a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9",
+            "psr/log": "~1.0"
+        },
+        "conflict": {
+            "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
+        },
+        "require-dev": {
+            "symfony/class-loader": "~2.8|~3.0",
+            "symfony/http-kernel": "~2.8|~3.0"
+        },
+        "time": "2016-07-30 07:22:48",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Debug\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Debug Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "v1.4.0",
+        "version_normalized": "1.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
+            "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2017-06-09 14:24:12",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/console",
+        "version": "v2.8.25",
+        "version_normalized": "2.8.25.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/console.git",
+            "reference": "46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/console/zipball/46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2",
+            "reference": "46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9",
+            "symfony/debug": "^2.7.2|~3.0.0",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/event-dispatcher": "~2.1|~3.0.0",
+            "symfony/process": "~2.1|~3.0.0"
+        },
+        "suggest": {
+            "psr/log": "For using the console logger",
+            "symfony/event-dispatcher": "",
+            "symfony/process": ""
+        },
+        "time": "2017-07-03 08:04:30",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Console\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Console Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/finder",
+        "version": "v2.8.25",
+        "version_normalized": "2.8.25.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/finder.git",
+            "reference": "4f4e84811004e065a3bb5ceeb1d9aa592630f9ad"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/finder/zipball/4f4e84811004e065a3bb5ceeb1d9aa592630f9ad",
+            "reference": "4f4e84811004e065a3bb5ceeb1d9aa592630f9ad",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "time": "2017-06-01 20:52:29",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Finder\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Finder Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/process",
+        "version": "v2.8.25",
+        "version_normalized": "2.8.25.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/process.git",
+            "reference": "57e52a0a6a80ea0aec4fc1b785a7920a95cb88a8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/process/zipball/57e52a0a6a80ea0aec4fc1b785a7920a95cb88a8",
+            "reference": "57e52a0a6a80ea0aec4fc1b785a7920a95cb88a8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "time": "2017-07-03 08:04:30",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Process\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Process Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "guzzlehttp/promises",
+        "version": "v1.3.1",
+        "version_normalized": "1.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/promises.git",
+            "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+            "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.0"
+        },
+        "time": "2016-12-20 10:07:11",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Promise\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle promises library",
+        "keywords": [
+            "promise"
+        ]
+    },
+    {
+        "name": "psr/http-message",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-06 14:39:51",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "homepage": "https://github.com/php-fig/http-message",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "guzzlehttp/psr7",
+        "version": "1.4.2",
+        "version_normalized": "1.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/psr7.git",
+            "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+            "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "psr/http-message": "~1.0"
+        },
+        "provide": {
+            "psr/http-message-implementation": "1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2017-03-20 17:10:46",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Psr7\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            },
+            {
+                "name": "Tobias Schultze",
+                "homepage": "https://github.com/Tobion"
+            }
+        ],
+        "description": "PSR-7 message implementation that also provides common utility methods",
+        "keywords": [
+            "http",
+            "message",
+            "request",
+            "response",
+            "stream",
+            "uri",
+            "url"
+        ]
+    },
+    {
+        "name": "mobiledetect/mobiledetectlib",
+        "version": "2.8.25",
+        "version_normalized": "2.8.25.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/serbanghita/Mobile-Detect.git",
+            "reference": "f0896b5c7274d1450023b0b376240be902c3251c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/f0896b5c7274d1450023b0b376240be902c3251c",
+            "reference": "f0896b5c7274d1450023b0b376240be902c3251c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2017-03-29 13:59:30",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "Mobile_Detect.php"
+            ],
+            "psr-0": {
+                "Detection": "namespaced/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Serban Ghita",
+                "email": "serbanghita@gmail.com",
+                "homepage": "http://mobiledetect.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "Mobile_Detect is a lightweight PHP class for detecting mobile devices. It uses the User-Agent string combined with specific HTTP headers to detect the mobile environment.",
+        "homepage": "https://github.com/serbanghita/Mobile-Detect",
+        "keywords": [
+            "detect mobile devices",
+            "mobile",
+            "mobile detect",
+            "mobile detector",
+            "php mobile detect"
+        ]
+    },
+    {
+        "name": "respect/validation",
+        "version": "1.0.17",
+        "version_normalized": "1.0.17.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Respect/Validation.git",
+            "reference": "dc869ac3757af7de801f1c7dbe16c6493d537a9e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Respect/Validation/zipball/dc869ac3757af7de801f1c7dbe16c6493d537a9e",
+            "reference": "dc869ac3757af7de801f1c7dbe16c6493d537a9e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4",
+            "symfony/polyfill-mbstring": "^1.2"
+        },
+        "require-dev": {
+            "egulias/email-validator": "~1.2",
+            "malkusch/bav": "~1.0",
+            "mikey179/vfsstream": "^1.5",
+            "phpunit/phpunit": "~4.0",
+            "symfony/validator": "~2.6.9",
+            "zendframework/zend-validator": "~2.3"
+        },
+        "suggest": {
+            "egulias/email-validator": "Strict (RFC compliant) email validation",
+            "ext-bcmath": "Arbitrary Precision Mathematics",
+            "ext-mbstring": "Multibyte String Functions",
+            "fabpot/php-cs-fixer": "Fix PSR2 and other coding style issues",
+            "malkusch/bav": "German bank account validation",
+            "symfony/validator": "Use Symfony validator through Respect\\Validation",
+            "zendframework/zend-validator": "Use Zend Framework validator through Respect\\Validation"
+        },
+        "time": "2017-03-14 09:28:03",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Respect\\Validation\\": "library/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD Style"
+        ],
+        "authors": [
+            {
+                "name": "Respect/Validation Contributors",
+                "homepage": "https://github.com/Respect/Validation/graphs/contributors"
+            }
+        ],
+        "description": "The most awesome validation engine ever created for PHP",
+        "homepage": "http://respect.li",
+        "keywords": [
+            "respect",
+            "validation",
+            "validator"
+        ]
+    },
+    {
+        "name": "symfony/filesystem",
+        "version": "v2.8.25",
+        "version_normalized": "2.8.25.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/filesystem.git",
+            "reference": "714b1036010c354ae2b25d7f9ca27e14e265e9f2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/filesystem/zipball/714b1036010c354ae2b25d7f9ca27e14e265e9f2",
+            "reference": "714b1036010c354ae2b25d7f9ca27e14e265e9f2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "time": "2017-07-11 07:12:11",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Filesystem\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Filesystem Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/config",
+        "version": "v2.8.25",
+        "version_normalized": "2.8.25.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/config.git",
+            "reference": "0b8541d18507d10204a08384640ff6df3c739ebe"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/config/zipball/0b8541d18507d10204a08384640ff6df3c739ebe",
+            "reference": "0b8541d18507d10204a08384640ff6df3c739ebe",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9",
+            "symfony/filesystem": "~2.3|~3.0.0"
+        },
+        "require-dev": {
+            "symfony/yaml": "~2.7|~3.0.0"
+        },
+        "suggest": {
+            "symfony/yaml": "To use the yaml reference dumper"
+        },
+        "time": "2017-04-12 14:07:15",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Config\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Config Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "v2.8.25",
+        "version_normalized": "2.8.25.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/event-dispatcher.git",
+            "reference": "1377400fd641d7d1935981546aaef780ecd5bf6d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/1377400fd641d7d1935981546aaef780ecd5bf6d",
+            "reference": "1377400fd641d7d1935981546aaef780ecd5bf6d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "^2.0.5|~3.0.0",
+            "symfony/dependency-injection": "~2.6|~3.0.0",
+            "symfony/expression-language": "~2.6|~3.0.0",
+            "symfony/stopwatch": "~2.3|~3.0.0"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2017-06-02 07:47:27",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "intelworx/ideo-framework",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://bitbucket.org/logbon72/ideo.git",
+            "reference": "52d4db5798a65662a31bee41d1414849ee0670d5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://bitbucket.org/logbon72/ideo/get/52d4db5798a65662a31bee41d1414849ee0670d5.zip",
+            "reference": "52d4db5798a65662a31bee41d1414849ee0670d5",
+            "shasum": ""
+        },
+        "require": {
+            "mobiledetect/mobiledetectlib": ">=2.8",
+            "php": ">=5.4",
+            "respect/validation": "~1.0.3",
+            "smarty/smarty": "3.1.27"
+        },
+        "time": "2016-02-21 19:07:17",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "Application.php",
+                "models/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Joseph Orilogbon",
+                "email": "logbon72@gmail.com"
+            }
+        ],
+        "description": "iDeo is a light-weight PHP framework.",
+        "homepage": "http://ideo.intelworx.com",
+        "keywords": [
+            "framework",
+            "light-weight",
+            "php",
+            "smarty"
+        ]
+    },
+    {
+        "name": "consolidation/robo",
+        "version": "0.6.0",
+        "version_normalized": "0.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/consolidation/Robo.git",
+            "reference": "d18185f0494c854d36aa5ee0ad931ee23bbef552"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/consolidation/Robo/zipball/d18185f0494c854d36aa5ee0ad931ee23bbef552",
+            "reference": "d18185f0494c854d36aa5ee0ad931ee23bbef552",
+            "shasum": ""
+        },
+        "require": {
+            "henrikbjorn/lurker": "1.0.*@dev",
+            "php": ">=5.4.0",
+            "symfony/console": "~2.5",
+            "symfony/filesystem": "~2.5",
+            "symfony/finder": "~2.5",
+            "symfony/process": "~2.5"
+        },
+        "require-dev": {
+            "codeception/aspect-mock": "0.5.*",
+            "codeception/base": "~2.1",
+            "codeception/codeception": "2.1",
+            "codeception/verify": "0.2.*",
+            "natxet/cssmin": "~3.0",
+            "patchwork/jsqueeze": "~1.0"
+        },
+        "time": "2015-10-30 11:29:52",
+        "bin": [
+            "robo"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Robo\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Davert",
+                "email": "davert.php@resend.cc"
+            }
+        ],
+        "description": "Modern task runner"
+    }
+]

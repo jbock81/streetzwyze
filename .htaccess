@@ -1,0 +1,21 @@
+RewriteCond %{HTTPS} !=on
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+
+RewriteOptions inherit
+RewriteEngine on
+Header set content-Security-Policy: upgrade-insecure-requests
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/gif "access plus 5 months"
+  ExpiresByType image/jpeg "access plus 5 months"
+  ExpiresByType image/png "access plus 5 months"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/x-javascript "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType text/javascript "access plus 1 week"
+  ExpiresByType image/x-icon "access plus 5 months"
+</IfModule>
+Options -Indexes

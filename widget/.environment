@@ -1,0 +1,7 @@
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER='l3n9m1k1_dbuser'
+DB_PASSWORD='KM@_8q(FF^2s'
+DB_NAME=l3n9m1k1_CVWidget
+CONFIG=dev
+SITE_BASE_URL=
